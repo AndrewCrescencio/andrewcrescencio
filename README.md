@@ -67,9 +67,10 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 ## Social
-
+<a name="linkedin">
 &nbsp;
 [<img src="https://img.shields.io/badge/Linkedin-282C34?logo=linkedin&logoColor=0077b5" alt="React Native logo" title="React Native" height="25" />][linkedin]
+ </a>
 &nbsp;
 [<img src="https://img.shields.io/badge/Gmail-282C34?logo=gmail&logoColor=ea4335" alt="React Native logo" title="React Native" height="25" />][tech_tools_anchor]
 
