@@ -31,6 +31,8 @@
 &nbsp;
 [<img src="https://img.shields.io/badge/Storybook-282C34?logo=storybook&logoColor=C21325" alt="Storybook logo" title="Storybook" height="25" />][tech_tools_anchor]
 &nbsp;
+[<img src="https://img.shields.io/badge/Strapi.io-282C34?logo=strapi&logoColor=8e75ff" alt="Strapi logo" title="Strapi.io CMS" height="25" />][tech_tools_anchor]
+&nbsp;
 [<img src="https://img.shields.io/badge/git-282C34?logo=git&logoColor=F05032" alt="git logo" title="git" height="25" />][tech_tools_anchor]
 &nbsp;
 [<img src="https://img.shields.io/badge/VS%20Code-282C34?logo=visual-studio-code&logoColor=007ACC" alt="Visual Studio Code logo" title="Visual Studio Code" height="25" />][tech_tools_anchor]
