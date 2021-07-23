@@ -1,6 +1,6 @@
 # Hi there 👋
 
-## I'm Andrew Crescencio a Frontend Web Developer from São Paulo (but soon i'll learn backend too).
+I'm Andrew Crescencio a Frontend Web Developer from São Paulo (but soon i'll learn backend too).
 
 ## 🛠  Technologies and tools
 <a name="technologioes-tools"></a>
@@ -37,7 +37,7 @@
 &nbsp;
 [<img src="https://img.shields.io/badge/VS%20Code-282C34?logo=visual-studio-code&logoColor=007ACC" alt="Visual Studio Code logo" title="Visual Studio Code" height="25" />][tech_tools_anchor]
 
-# :books: What I am interested in learning...
+## :books: What I am interested in learning...
 <a name="learning-next"></a>
 
 &nbsp;
@@ -66,6 +66,16 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+## Social
+
+&nbsp;
+[<img src="https://img.shields.io/badge/Linkedin-282C34?logo=linkedin&logoColor=0077b5" alt="React Native logo" title="React Native" height="25" />][tech_tools_anchor]
+&nbsp;
+[<img src="https://img.shields.io/badge/Gmail-282C34?logo=gmail&logoColor=ea4335" alt="React Native logo" title="React Native" height="25" />][tech_tools_anchor]
+
 ![visitors](https://visitor-badge.glitch.me/badge?page_id=andrewcrescencio.id)
 
 [tech_tools_anchor]: #hi--
+[linkedin]: #https://www.linkedin.com/in/andrewcrescencio/
+
+
