@@ -1,4 +1,8 @@
-### Hi there 👋
+# Hi there 👋
+
+## I'm Andrew Crescencio a Frontend Web Developer from São Paulo (but soon i'll learn backend too).
+
+## 🛠  Technologies and tools
 
 <!--
 **AndrewCrescencio/andrewcrescencio** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
