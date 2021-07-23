@@ -43,7 +43,11 @@
 &nbsp;
 [<img src="https://img.shields.io/badge/Express-282C34?logo=express&logoColor=FFFFFF" alt="Express.js logo" title="Express.js" height="25" />][learning_next_anchor]
 &nbsp;
-[<img src="https://img.shields.io/badge/PostgreSQL-282C34?logo=postgresql&logoColor=FFFFFF" alt="PostgreSQL logo" title="PostgreSQL" height="25" />][learning_next_anchor]
+[<img src="https://img.shields.io/badge/NestJS-282C34?logo=nestjs&logoColor=C21325" alt="NestJS logo" title="Node.js" height="25" />][learning_next_anchor]
+&nbsp;
+[<img src="https://img.shields.io/badge/PostgreSQL-282C34?logo=postgresql&logoColor=#007ACC" alt="PostgreSQL logo" title="PostgreSQL" height="25" />][learning_next_anchor]
+&nbsp;
+[<img src="https://img.shields.io/badge/MongoDB-282C34?logo=mongodb&logoColor=47A248" alt="MongoDB logo" title="MongoDB" height="25" />][learning_next_anchor]
 <!--
 **AndrewCrescencio/andrewcrescencio** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
