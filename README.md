@@ -4,9 +4,13 @@
 
 ## 🛠  Technologies and tools
 <span title="NextJs"><img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@v5/icons/nextdotjs.svg" /></span>
-<span><img style="display: inline;" height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@v5/icons/nextdotjs.svg" /></span>
+<span  title="ReactJs"><img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@v5/icons/react.svg" /></span>
+<span  title="Typescript"><img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@v5/icons/typescript.svg" /></span>
+<span  title="Javascript"><img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@v5/icons/javascript.svg" /></span>
+<span  title="Styled Components"><img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@v5/icons/styledcomponents.svg" /></span>
+<span  title="Sass"><img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@v5/icons/sass.svg" /></span>
+<span  title="Bootstrap"><img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@v5/icons/bootstrap.svg" /></span>
 
-<img style="display: inline;" height="32" width="32" src="https://unpkg.com/simple-icons@v5/icons/react.svg" />
 
 <!--
 **AndrewCrescencio/andrewcrescencio** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
