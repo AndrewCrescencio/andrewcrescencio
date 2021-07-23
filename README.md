@@ -3,7 +3,7 @@
 ## I'm Andrew Crescencio a Frontend Web Developer from São Paulo (but soon i'll learn backend too).
 
 ## 🛠  Technologies and tools
-<span title="NextJs"><img style="display: inline;" height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@v5/icons/nextdotjs.svg" /></span>
+<span title="NextJs"><img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@v5/icons/nextdotjs.svg" /></span>
 <span><img style="display: inline;" height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@v5/icons/nextdotjs.svg" /></span>
 
 <img style="display: inline;" height="32" width="32" src="https://unpkg.com/simple-icons@v5/icons/react.svg" />
