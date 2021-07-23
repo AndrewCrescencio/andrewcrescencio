@@ -82,7 +82,7 @@ Here are some ideas to get you started:
  &nbsp;
  &nbsp;
 </div>
-
+<!--
 ![visitors](https://visitor-badge.glitch.me/badge?page_id=andrewcrescencio.id)
-
+-->
 [tech_tools_anchor]: #hi--
