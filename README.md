@@ -25,7 +25,7 @@ I'm Andrew Crescencio a Frontend Web Developer from São Paulo (but soon i'll le
 &nbsp;
 [<img src="https://img.shields.io/badge/Jquery-282C34?logo=jquery&logoColor=1572B6" alt="HTML5 logo" title="HTML5" height="25" />][tech_tools_anchor]
 &nbsp;
-[<img src="https://img.shields.io/badge/HTML5-282C34?logo=html5&logoColor=E34F26" alt="HTML5 logo" title="HTML5" height="25" />][tech_tools_anchor]
+[<img src="https://img.shields.io/badge/HTML5-282C34?logo=html5&logoColor=E34F26" alt="Jquery logo" title="Jquery" height="25" />][tech_tools_anchor]
 &nbsp;
 [<img src="https://img.shields.io/badge/CSS3-282C34?logo=css3&logoColor=1572B6" alt="CSS3 logo" title="CSS3" height="25" />][tech_tools_anchor]
 &nbsp;
@@ -71,11 +71,11 @@ Here are some ideas to get you started:
 ## Social
 
 <a href="https://www.linkedin.com/in/andrewcrescencio/">
-<img src="https://img.shields.io/badge/Linkedin-282C34?logo=linkedin&logoColor=0077b5" alt="React Native logo" title="React Native" height="25" />
+<img src="https://img.shields.io/badge/Linkedin-282C34?logo=linkedin&logoColor=0077b5" alt="Linkedin logo" title="Linkedin " height="25" />
 </a>
 
 <a href="mailto:andrew_workstation@hotmail.com">
-<img src="https://img.shields.io/badge/Gmail-282C34?logo=gmail&logoColor=ea4335" alt="React Native logo" title="React Native" height="25" />
+<img src="https://img.shields.io/badge/Gmail-282C34?logo=gmail&logoColor=ea4335" alt="Gmail logo" title="Gmail" height="25" />
 </a>
  
 <div>
