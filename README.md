@@ -33,7 +33,7 @@ I'm Andrew Crescencio a Frontend Web Developer from São Paulo (but soon i'll le
 &nbsp;
 [<img src="https://img.shields.io/badge/Storybook-282C34?logo=storybook&logoColor=C21325" alt="Storybook logo" title="Storybook" height="25" />][tech_tools_anchor]
 &nbsp;
-[<img src="https://img.shields.io/badge/Strapi-282C34?logo=strapi&logoColor=8e75ff" alt="Strapi logo" title="Strapi.io CMS" height="25" />][tech_tools_anchor]
+[<img src="https://img.shields.io/badge/Strapi-282C34?logo=strapi&logoColor=8e75ff" alt="Strapi logo" title="Strapi" height="25" />][tech_tools_anchor]
 &nbsp;
 [<img src="https://img.shields.io/badge/git-282C34?logo=git&logoColor=F05032" alt="git logo" title="git" height="25" />][tech_tools_anchor]
 &nbsp;
