@@ -67,19 +67,20 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 ## Social
-<a href="https://www.linkedin.com/in/andrewcrescencio/">
 
+<a href="https://www.linkedin.com/in/andrewcrescencio/">
 <img src="https://img.shields.io/badge/Linkedin-282C34?logo=linkedin&logoColor=0077b5" alt="React Native logo" title="React Native" height="25" />
 </a>
 
 <a href="mailto:andrew_workstation@hotmail.com">
-
 <img src="https://img.shields.io/badge/Gmail-282C34?logo=gmail&logoColor=ea4335" alt="React Native logo" title="React Native" height="25" />
 </a>
  
+<div>
+ &nbsp;
+ &nbsp;
+</div>
+
 ![visitors](https://visitor-badge.glitch.me/badge?page_id=andrewcrescencio.id)
 
 [tech_tools_anchor]: #hi--
-[linkedin]: #https://www.linkedin.com/in/andrewcrescencio/
-
-
