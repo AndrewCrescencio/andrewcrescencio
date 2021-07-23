@@ -68,7 +68,7 @@ Here are some ideas to get you started:
 -->
 ## Social
 <a name="linkedin">
-&nbsp;
+
 [<img src="https://img.shields.io/badge/Linkedin-282C34?logo=linkedin&logoColor=0077b5" alt="React Native logo" title="React Native" height="25" />][linkedin]
  </a>
 &nbsp;
