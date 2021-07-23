@@ -11,6 +11,9 @@
 <span  title="Sass"><img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@v5/icons/sass.svg" /></span>
 <span  title="Bootstrap"><img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@v5/icons/bootstrap.svg" /></span>
 
+<span  title="Bootstrap"><img height="32" width="32" src="./assets/reactjs.png" /></span>
+<span  title="Bootstrap"><img height="32" width="32" src="./assets/styled-components.png" /></span>
+
 # I'm still arranging...
 
 <!--
