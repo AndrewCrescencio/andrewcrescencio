@@ -38,6 +38,8 @@ I'm Andrew Crescencio a Frontend Web Developer from São Paulo
 [<img src="https://img.shields.io/badge/git-282C34?logo=git&logoColor=F05032" alt="git logo" title="git" height="25" />][tech_tools_anchor]
 &nbsp;
 [<img src="https://img.shields.io/badge/VS%20Code-282C34?logo=visual-studio-code&logoColor=007ACC" alt="Visual Studio Code logo" title="Visual Studio Code" height="25" />][tech_tools_anchor]
+&nbsp;
+[<img src="https://img.shields.io/badge/Figma-282C34?logo=figma&logoColor=007ACC" alt="Figma logo" title="Figma" height="25" />][tech_tools_anchor]
 
 ## :books: What I am interested in learning...
 <a name="learning-next"></a>
