@@ -1,6 +1,7 @@
 # Hi there 👋
 
 I'm Andrew Crescencio a Frontend Web Developer from São Paulo
+## I'm currently finishing a project, I'll post it here until tomorrow!!!
 
 ## 🛠  Technologies and tools
 <a name="technologioes-tools"></a>
