@@ -35,6 +35,8 @@ I'm Andrew Crescencio a Frontend Web Developer from São Paulo
 &nbsp;
 [<img src="https://img.shields.io/badge/Strapi-282C34?logo=strapi&logoColor=8e75ff" alt="Strapi logo" title="Strapi" height="25" />][tech_tools_anchor]
 &nbsp;
+[<img src="https://img.shields.io/badge/Insomnia-282C34?logo=insomnia&logoColor=8e75ff" alt="Insomnia logo" title="Insomnia" height="25" />][tech_tools_anchor]
+&nbsp;
 [<img src="https://img.shields.io/badge/git-282C34?logo=git&logoColor=F05032" alt="git logo" title="git" height="25" />][tech_tools_anchor]
 &nbsp;
 [<img src="https://img.shields.io/badge/VS%20Code-282C34?logo=visual-studio-code&logoColor=007ACC" alt="Visual Studio Code logo" title="Visual Studio Code" height="25" />][tech_tools_anchor]
