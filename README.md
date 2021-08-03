@@ -78,13 +78,15 @@ I'm currently focused on the Frontend with Javascript (and TypeScript), but I al
 &nbsp;
 [<img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white" alt="Express.js" title="Express.js" height="25" />][tech_tools_anchor]
 &nbsp;
-[<img src="https://img.shields.io/badge/NestJS-282C34?logo=nestjs&logoColor=C21325" alt="NestJS logo" title="NestJS" height="25" />][tech_tools_anchor]
-&nbsp;
 [<img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" title="PostgreSQL" height="25" />][tech_tools_anchor]
 &nbsp;
 [<img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB" title="MongoDB" height="25" />][tech_tools_anchor]
 &nbsp;
+[<img src="https://img.shields.io/badge/NestJS-282C34?logo=nestjs&logoColor=C21325" alt="NestJS logo" title="NestJS" height="25" />][tech_tools_anchor]
+&nbsp;
 [<img src="https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React Native" title="React Native" height="25" />][tech_tools_anchor]
+&nbsp;
+[<img src="https://img.shields.io/badge/NestJS-282C34?logo=webpack&logoColor=C21325" alt="NestJS logo" title="NestJS" height="25" />][tech_tools_anchor]
 &nbsp;
 &nbsp;
 
