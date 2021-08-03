@@ -61,14 +61,15 @@ I'm currently focused on the Frontend with Javascript (and TypeScript), but I al
 &nbsp;
 [<img src="https://img.shields.io/badge/Insomnia-5849be?style=for-the-badge&logo=Insomnia&logoColor=white" alt="Insomnia" title="Insomnia" height="25" />][tech_tools_anchor]
 &nbsp;
+[<img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" alt="Figma" title="Figma" height="25" />][tech_tools_anchor]
+&nbsp;
 [<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" title="Git" height="25" />][tech_tools_anchor]
 &nbsp;
 [<img src="https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white" alt="Visual Studio Code" title="Visual Studio Code" height="25" />][tech_tools_anchor]
 &nbsp;
-[<img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" alt="Figma" title="Figma" height="25" />][tech_tools_anchor]
+[<img src="https://img.shields.io/badge/Webpack-282C34?logo=webpack&logoColor=1572b6" alt="Webpack" title="Webpack" height="25" />][tech_tools_anchor]
 &nbsp;
 &nbsp;
-
 
 ## :books: What I am interested in learning... :open_book:
 <a name="learning-next"></a>
@@ -82,11 +83,9 @@ I'm currently focused on the Frontend with Javascript (and TypeScript), but I al
 &nbsp;
 [<img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB" title="MongoDB" height="25" />][tech_tools_anchor]
 &nbsp;
-[<img src="https://img.shields.io/badge/NestJS-282C34?logo=nestjs&logoColor=C21325" alt="NestJS logo" title="NestJS" height="25" />][tech_tools_anchor]
-&nbsp;
 [<img src="https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React Native" title="React Native" height="25" />][tech_tools_anchor]
 &nbsp;
-[<img src="https://img.shields.io/badge/NestJS-282C34?logo=webpack&logoColor=C21325" alt="NestJS logo" title="NestJS" height="25" />][tech_tools_anchor]
+[<img src="https://img.shields.io/badge/NestJS-282C34?logo=nestjs&logoColor=C21325" alt="NestJS logo" title="NestJS" height="25" />][tech_tools_anchor]
 &nbsp;
 &nbsp;
 
