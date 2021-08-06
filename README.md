@@ -15,7 +15,7 @@ I'm currently focused on the Frontend with Javascript (and TypeScript), but I al
 &nbsp;
 &nbsp;
 
-## :rocket: Frameworks and Libs 
+## :rocket: Frameworks and Libs :books:
 
 
 [<img src="https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js" title="Next.js" height="25" />][tech_tools_anchor]
