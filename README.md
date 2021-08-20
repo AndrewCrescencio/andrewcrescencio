@@ -24,6 +24,8 @@ I'm currently focused on the Frontend with Javascript (and TypeScript), but I al
 &nbsp;
 [<img src="https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white" alt="Redux" title="Redux" height="25" />][tech_tools_anchor]
 &nbsp;
+[<img src="https://img.shields.io/badge/nuxt.js-00C58E?style=for-the-badge&logo=nuxtdotjs&logoColor=white" alt="GraphQL" title="GraphQL" height="25" />][tech_tools_anchor]
+&nbsp;
 [<img src="https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D" alt="GraphQL" title="GraphQL" height="25" />][tech_tools_anchor]
 &nbsp;
 [<img src="https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white" alt="Jquery" title="Jquery" height="25" />][tech_tools_anchor]
