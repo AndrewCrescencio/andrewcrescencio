@@ -2,7 +2,7 @@
 
 I'm Andrew Crescencio a Frontend Web Developer from São Paulo.
 
-I'm currently focused on the Frontend with Javascript (and TypeScript), but I also intend to evolve to FullStack soon.
+I'm currently focused on the Frontend with Javascript (and TypeScript), but I also intend to learn backend
 
 ## :desktop_computer: Programming languages :tongue: 
 
