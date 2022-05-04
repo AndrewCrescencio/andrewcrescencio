@@ -2,7 +2,10 @@
 
 I'm Andrew Crescencio a Frontend Web Developer from São Paulo.
 
-I'm currently focused on the Frontend with Javascript (and TypeScript), but I also intend to learn backend
+
+I'm currently working as a frontend developer, I use the tools of the vuejs ecosystem, mainly the nuxtjs framework, I also use other technologies such as html, css, javascript, jquery and bootstrap. I also do some work with Wordpress.
+
+I also develop applications in NextJs/ReactJs using typescript and Styled Components/TailwindCss
 
 ## :desktop_computer: Programming languages :tongue: 
 
