@@ -37,7 +37,8 @@ I also develop applications in NextJs/ReactJs using typescript and Css in Js
 
 ## :sunglasses: Style Sheets :sparkles:
 
-
+[<img src="https://img.shields.io/badge/Chakra&nbsp;UI-65c9cc?style=for-the-badge&logo=chakraui&logoColor=white" alt="Chakra Ui" title="Chakra Ui" height="25" />][tech_tools_anchor]
+&nbsp;
 [<img src="https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white" alt="Styled Components" title="styled-components" height="25" />][tech_tools_anchor]
 &nbsp;
 [<img src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white" alt="Bootstrap" title="Bootstrap" height="25" />][tech_tools_anchor]
