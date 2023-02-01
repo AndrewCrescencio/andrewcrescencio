@@ -40,7 +40,4 @@ export const GlobalStyles = createGlobalStyle`
     color: ${({ theme }) => theme.colors.text};
   }
 
-  body, nav {
-    transition: all 0.50s linear;
-  }
 `;
