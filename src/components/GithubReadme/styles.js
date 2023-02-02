@@ -14,13 +14,26 @@ export const Section = styled.section`
   }
 
   h1 {
-    margin-bottom: 32px;
-    padding-bottom: 16px;
+    margin-bottom: 16px;
+    font-weight: 600;
+    line-height: 1.25;
+    padding-bottom: 0.3em;
+    font-size: 2em;
+    border-bottom: 1px solid gray;
   }
 
   h2 {
+    margin-top: 24px;
     margin-bottom: 16px;
-    padding-bottom: 8px;
+    font-weight: 600;
+    line-height: 1.25;
+    padding-bottom: 0.3em;
+    font-size: 1.5em;
+    border-bottom: 1px solid gray;
+  }
+
+  p {
+    margin-bottom: 16px;
   }
 
   p + h2 {
