@@ -14,7 +14,7 @@ export const GlobalStyles = createGlobalStyle`
   }
 
   [data-theme="dark"] {
-    --background: #121212;
+    --background: rgb(40,40,40);
     --text: #fff;
   }
   
