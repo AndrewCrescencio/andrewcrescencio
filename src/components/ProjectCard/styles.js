@@ -6,6 +6,8 @@ export const Card = styled.a`
   border: 1px solid gray;
   display: flex;
   flex-direction: column;
+  border-radius: 8px;
+  overflow: hidden;
   > div {
     padding: 24px 24px 0;
   }
@@ -15,7 +17,7 @@ export const CardImage = styled(Image)`
   margin: 0 auto 24px;
   display: block;
   @media (max-width: 768px) {
-    width: 100%;
+    max-width: 100%;
   }
 `;
 
