@@ -1,10 +1,14 @@
 # Hi there 👋
 
-Eu sou Andrew um desenvolvedor com muita sede de conhecimento.
+Sou um desenvolvedor com muita sede de conhecimento e força para resolver problemas.
 
-Atualmente trabalho como desenvolvedor frontend, utilizo as ferramentas do ecossistema vuejs, principalmente o framework nuxtjs, também utilizo outras tecnologias como html, css/sass, javascript, jquery e bootstrap. Também alguns trabalham com wordpress.
+Atualmente trabalho como desenvolvedor Front-end.
 
-Adoro programar aplicações com javascript, seja frontend, backend ou até mesmo fullstack
+No trabalho utilizo as ferramentas do ecossistema VueJs, principalmente o framework NuxtJs, mas também utilizo outras tecnologias como NextJs, React, Angular, JavaScript | TypeScript, jQuery, Bootstrap e Sass.
+
+Também alguns trabalhos com WordPress.
+
+Amo programar, seja aplicações Front-end, Back-end ou até mesmo Full Stack!
 
 ## :desktop_computer: Programming languages :tongue:
 
