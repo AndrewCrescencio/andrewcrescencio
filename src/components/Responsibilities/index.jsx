@@ -1,11 +1,18 @@
-import { List, ListItem } from "./styles";
+import { Heading, List, ListItem } from "./styles";
 
 export const Responsibilities = ({ data }) => {
   return (
-    <List>
-      {data.map((responsibility, i) => {
-        return <ListItem key={"responsibility" + i}>{responsibility}</ListItem>;
-      })}
-    </List>
+    <>
+      <Heading>Responsabilidades:</Heading>
+      <List>
+        {data.map((responsibility, i) => {
+          return (
+            <ListItem key={"responsibility" + i}>
+              {responsibility.description}
+            </ListItem>
+          );
+        })}
+      </List>
+    </>
   );
 };

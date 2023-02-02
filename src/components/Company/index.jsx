@@ -1,21 +1,22 @@
 import Image from "next/image";
+import { Card, CardSubTitle, CardTitle } from "./styles";
+import { Responsibilities } from "../Responsibilities";
 
 export const Company = ({ name, logo, role, responsibilities }) => {
   return (
-    <>
+    <Card>
       <Image
         width={logo.width}
         height={logo.height}
         src={logo.url}
         alt={name + " logo"}
       />
-      <div>{name}</div>
-      <p>{role}</p>
-      <ul>
-        {responsibilities.map((responsibility, i) => {
-          return <li key={i}>{responsibility.description}</li>;
-        })}
-      </ul>
-    </>
+      <div>
+        <CardTitle>{name}</CardTitle>
+        <CardSubTitle>cargo: {role}</CardSubTitle>
+
+        <Responsibilities data={responsibilities} />
+      </div>
+    </Card>
   );
 };

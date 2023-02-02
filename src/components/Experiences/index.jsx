@@ -1,5 +1,5 @@
 import { Company } from "../Company";
-import { Project } from "../Project";
+import { Projects } from "../Projects";
 import { Container, Title } from "./styles";
 
 export const Experiences = ({ data }) => {
@@ -15,11 +15,7 @@ export const Experiences = ({ data }) => {
               responsibilities={exp.responsibilities}
               role={exp.role}
             />
-            <div>
-              {exp.projects.map((project, i) => {
-                return <Project key={i} {...project} />;
-              })}
-            </div>
+            <Projects data={exp.projects} />
           </div>
         );
       })}

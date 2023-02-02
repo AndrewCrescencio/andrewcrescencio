@@ -1,8 +1,13 @@
 import styled from "styled-components";
 
-export const Container = styled.section`
-  margin-bottom: 64px;
+export const ProjectsContainer = styled.div`
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 32px;
 `;
+
+export const Container = styled.div``;
 
 export const Title = styled.h1`
   text-align: center;
