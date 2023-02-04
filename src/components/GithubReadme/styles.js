@@ -32,6 +32,12 @@ export const Section = styled.section`
     border-bottom: 1px solid gray;
   }
 
+  h3 {
+    font-weight: 500;
+    margin-bottom: 20px;
+    font-size: 18px;
+  }
+
   p {
     margin-bottom: 16px;
     line-height: 1.5;
