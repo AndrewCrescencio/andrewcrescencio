@@ -14,7 +14,7 @@ export const GlobalStyles = createGlobalStyle`
   }
 
   [data-theme="dark"] {
-    --background: rgb(40,40,40);
+    --background: #121212;
     --text: #fff;
   }
   
@@ -35,7 +35,7 @@ export const GlobalStyles = createGlobalStyle`
   }
 
   body {  
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     background-color: ${({ theme }) => theme.colors.background};
     color: ${({ theme }) => theme.colors.text};
   }
