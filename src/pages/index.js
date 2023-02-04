@@ -15,11 +15,9 @@ export default function Index({ data, cmsData }) {
           name="description"
           content="Andrew Crescencio, Frontend Developer."
         />
-
         <meta name="author" content="Andrew Crescencio" />
         <meta name="og:site_name" content="Andrew Crescencio" />
         <meta name="og:type" content="website" />
-
         <meta
           name="og:title"
           content="Andrew Crescencio - Frontend Developer"

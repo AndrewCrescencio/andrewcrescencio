@@ -10,13 +10,13 @@ Também alguns trabalhos com WordPress.
 
 Amo programar, seja aplicações Front-end, Back-end ou até mesmo Full Stack!
 
-## :desktop_computer: Programming languages :tongue:
+## :desktop_computer: Linguagens de programação :tongue:
 
 ![Typescript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
 ![GraphQl](https://img.shields.io/badge/GraphQl-E10098?style=for-the-badge&logo=graphql&logoColor=white)
 
-## :rocket: Frameworks and Libs :books:
+## 🚀 Frameworks e Bibliotecas :books:
 
 ![NextJs](https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
 ![ReactJs](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
@@ -44,7 +44,7 @@ Amo programar, seja aplicações Front-end, Back-end ou até mesmo Full Stack!
 ![MUI](https://img.shields.io/badge/MUI-%230081CB.svg?style=for-the-badge&logo=mui&logoColor=white)
 &nbsp;
 
-## 💾 Databases :desktop_computer:
+## 💾 Banco de Dados 🗄️
 
 ![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
@@ -53,15 +53,47 @@ Amo programar, seja aplicações Front-end, Back-end ou até mesmo Full Stack!
 ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
 ![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white)
 
-## :test_tube: Test Tools :alembic:
+## :test_tube: Ferramentas de testes :alembic:
 
 ![](https://img.shields.io/badge/Jest-C21325?style=for-the-badge&logo=jest&logoColor=white)
 ![](https://img.shields.io/badge/-Storybook-FF4785?style=for-the-badge&logo=storybook&logoColor=white)
 
-## :hammer_and_wrench: Others Tools :toolbox:
+## ✍️ CMS 🧩
 
 ![Strapi CMS](https://img.shields.io/badge/strapi-2e7eea?style=for-the-badge&logo=strapi&logoColor=white)
 ![WordPress](https://img.shields.io/badge/WordPress-%23117AC9.svg?style=for-the-badge&logo=WordPress&logoColor=white)
+
+<p style="display: flex; gap: 3px; font-size: 12px;">
+  <span 
+    style="
+    display:inline;
+    width: 104px;
+    height: 28px;
+    display: grid;
+    place-content: center;
+    background-color: #ff5d3f;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 500;">
+    Dato Cms
+  </span>
+  <span 
+    style="
+    display:inline;
+    width: 104px;
+    height: 28px;
+    display: grid;
+    place-content: center;
+    background-color: #090e24;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 500;">
+    hygraph
+    </span>
+</p>
+&nbsp;
+
+## :hammer_and_wrench: Outras ferramentas :toolbox:
 
 ![Webpack](https://img.shields.io/badge/webpack-%238DD6F9.svg?style=for-the-badge&logo=webpack&logoColor=black)
 ![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)
@@ -77,14 +109,14 @@ Amo programar, seja aplicações Front-end, Back-end ou até mesmo Full Stack!
 ![Adobe XD](https://img.shields.io/badge/Adobe%20XD-470137?style=for-the-badge&logo=Adobe%20XD&logoColor=#FF61F6)
 ![Adobe Photoshop](https://img.shields.io/badge/adobe%20photoshop-%2331A8FF.svg?style=for-the-badge&logo=adobe%20photoshop&logoColor=white)
 
-## :books: Interested in learning... :open_book:
+## 📖 Interessado em aprender... 👀
 
 ![React Native](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Kotlin](https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white)
 ![Dart](https://img.shields.io/badge/dart-%230175C2.svg?style=for-the-badge&logo=dart&logoColor=white)
 ![Electron.js](https://img.shields.io/badge/Electron-191970?style=for-the-badge&logo=Electron&logoColor=white)
 
-![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white)
-![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![Ruby](https://img.shields.io/badge/ruby-%23CC342D.svg?style=for-the-badge&logo=ruby&logoColor=white)
