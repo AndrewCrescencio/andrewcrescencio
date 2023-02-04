@@ -6,7 +6,7 @@ export const AppThemeProvider = ({ children }) => {
   return (
     <StyledThemeProvider theme={myTheme}>
       <GlobalStyles />
-      <NextThemeProvider>{children}</NextThemeProvider>
+      <NextThemeProvider enableSystem={true}>{children}</NextThemeProvider>
     </StyledThemeProvider>
   );
 };
