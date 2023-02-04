@@ -12,12 +12,6 @@ export const ProjectCard = ({
   return (
     <Card href={projectLink} target="_blank" rel="noreferrer">
       <div>
-        <CardImage
-          width={projectImage.width}
-          height={projectImage.height}
-          src={projectImage.url}
-          alt={projectImage.alt}
-        />
         <CardTitle>{projectTitle}</CardTitle>
         <Responsibilities data={projectResponsibilities} />
         <Techs>

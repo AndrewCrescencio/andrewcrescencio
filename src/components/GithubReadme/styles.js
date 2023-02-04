@@ -46,6 +46,12 @@ export const Section = styled.section`
     `}
   }
 
+  h4 {
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 8px;
+  }
+
   p {
     margin-bottom: 16px;
     line-height: 1.5;

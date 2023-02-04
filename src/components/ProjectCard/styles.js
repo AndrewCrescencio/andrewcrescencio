@@ -1,25 +1,27 @@
 import styled from "styled-components";
 import Image from "next/image";
+import { media } from "@/styles/media-querie";
 
 export const Card = styled.a`
-  display: block;
   border: 1px solid gray;
-  display: flex;
-  flex-direction: column;
   border-radius: 8px;
   overflow: hidden;
+  display: flex;
+  flex-direction: column;
   > div {
     padding: 24px 24px 0;
   }
 `;
 
-export const CardImage = styled(Image)`
-  margin: 0 auto 24px;
-  display: block;
-  @media (max-width: 768px) {
-    max-width: 100%;
-  }
-`;
+// export const CardImage = styled(Image)`
+//   margin: 0 auto 24px;
+//   display: block;
+//   width: 100%;
+//   @media (max-width: 768px) {
+//     max-width: unset;
+//     height: auto;
+//   }
+// `;
 
 export const CardTitle = styled.h3`
   margin-bottom: 24px;
@@ -32,6 +34,7 @@ export const Techs = styled.div`
   }
   > div {
     display: flex;
+    flex-wrap: wrap;
     gap: 8px;
     align-items: flex-start;
   }
