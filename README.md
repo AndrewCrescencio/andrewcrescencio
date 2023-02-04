@@ -42,7 +42,6 @@ Amo programar, seja aplicações Front-end, Back-end ou até mesmo Full Stack!
 ![Chakra](https://img.shields.io/badge/chakra-%234ED1C5.svg?style=for-the-badge&logo=chakraui&logoColor=white)
 ![Quasar](https://img.shields.io/badge/Quasar-16B7FB?style=for-the-badge&logo=quasar&logoColor=black)
 ![MUI](https://img.shields.io/badge/MUI-%230081CB.svg?style=for-the-badge&logo=mui&logoColor=white)
-&nbsp;
 
 ## 💾 Banco de Dados 🗄️
 
@@ -62,36 +61,6 @@ Amo programar, seja aplicações Front-end, Back-end ou até mesmo Full Stack!
 
 ![Strapi CMS](https://img.shields.io/badge/strapi-2e7eea?style=for-the-badge&logo=strapi&logoColor=white)
 ![WordPress](https://img.shields.io/badge/WordPress-%23117AC9.svg?style=for-the-badge&logo=WordPress&logoColor=white)
-
-<p style="display: flex; gap: 3px; font-size: 12px;">
-  <span 
-    style="
-    display:inline;
-    width: 104px;
-    height: 28px;
-    display: grid;
-    place-content: center;
-    background-color: #ff5d3f;
-    color: #fff;
-    text-transform: uppercase;
-    font-weight: 500;">
-    Dato Cms
-  </span>
-  <span 
-    style="
-    display:inline;
-    width: 104px;
-    height: 28px;
-    display: grid;
-    place-content: center;
-    background-color: #090e24;
-    color: #fff;
-    text-transform: uppercase;
-    font-weight: 500;">
-    hygraph
-    </span>
-</p>
-&nbsp;
 
 ## :hammer_and_wrench: Outras ferramentas :toolbox:
 
