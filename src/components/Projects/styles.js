@@ -7,8 +7,6 @@ export const ProjectsContainer = styled.div`
   gap: 32px;
 `;
 
-export const Container = styled.div``;
-
 export const Title = styled.h1`
   text-align: center;
   display: block;

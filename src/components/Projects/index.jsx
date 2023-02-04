@@ -1,7 +1,8 @@
 import Image from "next/image";
 import { useEffect } from "react";
 import { ProjectCard } from "../ProjectCard";
-import { Container, ProjectsContainer, Title } from "./styles";
+import { Container } from "../UI/Container";
+import { ProjectsContainer, Title } from "./styles";
 
 export const Projects = ({ data }) => {
   useEffect(() => {

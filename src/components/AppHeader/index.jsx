@@ -1,13 +1,18 @@
 import { SocialLinks } from "../SocialLinks";
 import { ToggleTheme } from "../ToggleTheme";
-import { Header, Logo } from "./styles";
+import { Container } from "../UI/Container";
+import { Header, Logo, Wrapper } from "./styles";
 
 export const AppHeader = () => {
   return (
     <Header>
-      <Logo>Andrew Crescencio</Logo>
-      <SocialLinks />
-      <ToggleTheme />
+      <Container>
+        <Wrapper>
+          <Logo>Andrew Crescencio</Logo>
+          <SocialLinks />
+          <ToggleTheme />
+        </Wrapper>
+      </Container>
     </Header>
   );
 };
