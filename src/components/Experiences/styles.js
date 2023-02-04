@@ -1,9 +1,5 @@
 import styled from "styled-components";
 
-export const Container = styled.section`
-  margin-bottom: 64px;
-`;
-
 export const Title = styled.h1`
   text-align: center;
   display: block;
