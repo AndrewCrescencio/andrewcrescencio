@@ -1,16 +1,11 @@
 import { media } from "@/styles/media-querie";
 import styled from "styled-components";
 
-export const Section = styled.section`
+export const Box = styled.div`
   width: 100%;
-  margin: 64px auto;
   padding: 16px;
   border: 1px solid gray;
   border-radius: 8px;
-
-  ${media.laptop`
-    margin: 128px auto
-  `}
 
   h1 {
     margin-bottom: 16px;
