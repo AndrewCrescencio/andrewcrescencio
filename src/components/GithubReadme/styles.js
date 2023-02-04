@@ -25,7 +25,7 @@ export const Section = styled.section`
   h2 {
     margin-top: 24px;
     margin-bottom: 16px;
-    font-weight: 600;
+    font-weight: 500;
     line-height: 1.25;
     padding-bottom: 0.3em;
     font-size: 1.5em;
@@ -34,6 +34,7 @@ export const Section = styled.section`
 
   p {
     margin-bottom: 16px;
+    line-height: 1.5;
   }
 
   p + h2 {
