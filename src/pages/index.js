@@ -11,21 +11,6 @@ export default function Index({ data, cmsData }) {
     <>
       <Head>
         <title>Andrew Crescencio</title>
-        <meta
-          name="description"
-          content="Andrew Crescencio, Frontend Developer."
-        />
-        <meta name="author" content="Andrew Crescencio" />
-        <meta name="og:site_name" content="Andrew Crescencio" />
-        <meta name="og:type" content="website" />
-        <meta
-          name="og:title"
-          content="Andrew Crescencio - Frontend Developer"
-        />
-        <meta
-          name="og:description"
-          content="Andrew Crescencio, Frontend Developer."
-        />
       </Head>
       <GithubReadme markdown={data} />
       <Experiences data={cmsData} />
