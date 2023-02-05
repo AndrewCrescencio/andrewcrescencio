@@ -27,6 +27,21 @@ export default class MyDocument extends Document {
     return (
       <Html lang="pt-BR">
         <Head>
+          {/* meta tags */}
+          <link rel="canonical" href="https://www.andrewcrescencio.com/" />
+          <meta
+            name="description"
+            content="Desenvolvedor Front-end, resolvendo problemas com o poder da tecnologia"
+          />
+          <meta name="author" content="Andrew Crescencio" />
+          <meta name="og:site_name" content="AndrewCrescencio.com" />
+          <meta name="og:type" content="website" />
+          <meta name="og:title" content="Andrew Crescencio" />
+          <meta
+            name="og:description"
+            content="Desenvolvedor Front-end, resolvendo problemas com o poder da tecnologia"
+          />
+          {/* Google Fonts */}
           <link rel="preconnect" href="https://fonts.googleapis.com" />
           <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
           <link
