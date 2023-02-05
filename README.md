@@ -29,7 +29,7 @@ Atualmente trabalho como desenvolvedor Front-end. No trabalho utilizo as ferrame
 ![Deno JS](https://img.shields.io/badge/deno%20js-000000?style=for-the-badge&logo=deno&logoColor=white)
 ![NestJS](https://img.shields.io/badge/nestjs-%23E0234E.svg?style=for-the-badge&logo=nestjs&logoColor=white)
 
-### 🎨 Css, Css in Js e bibliotecas/frameworks de componentes 🧩
+### 🎨 Css, Css in Js, bibliotecas e frameworks 🧩
 
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 ![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white)
