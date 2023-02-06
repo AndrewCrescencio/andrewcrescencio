@@ -2,7 +2,7 @@
 
 Sou um desenvolvedor que está sempre buscando conhecimento e novos desafios.
 
-Atualmente trabalho como desenvolvedor Front-end. No trabalho utilizo as ferramentas do ecossistema VueJs, principalmente o framework NuxtJs, mas também utilizo outras tecnologias como NextJs, React, Angular, JavaScript | TypeScript, jQuery, Bootstrap e Sass.
+Atualmente trabalho como desenvolvedor Front-end. No trabalho utilizo as ferramentas do ecossistema React, principalmente o framework NextJs, mas também tenho conhecimento em outras tecnologias como Nuxt, Vue, Angular...
 
 ## 👨‍💻 Tecnologias que utilizo
 
