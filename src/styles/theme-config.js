@@ -20,6 +20,7 @@ export const GlobalStyles = createGlobalStyle`
   }
   
   * {
+    /* outline: 1px solid red; */
     margin: 0;
     padding: 0;
     box-sizing: border-box !important;
@@ -37,6 +38,7 @@ export const GlobalStyles = createGlobalStyle`
 
   body {  
     width: 100vw;
+    overflow-x: hidden;
     box-sizing: border-box !important;
     font-family: 'Ubuntu', sans-serif;
     background-color: ${({ theme }) => theme.colors.background};
