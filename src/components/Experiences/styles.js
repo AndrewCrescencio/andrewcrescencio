@@ -7,4 +7,14 @@ export const Title = styled.h1`
   margin-bottom: 48px;
 `;
 
+export const Experience = styled.div`
+  margin-bottom: 64px;
+  @media (min-width: 768px) {
+    margin-bottom: 128px;
+  }
+  &:last-of-type {
+    margin-bottom: 0;
+  }
+`;
+
 export const Wrapper = styled.div``;

@@ -1,8 +1,7 @@
 import { Company } from "../Company";
 import { Projects } from "../Projects";
-import { Techs } from "../Techs";
 import { Section } from "../UI/Section";
-import { Title, Wrapper } from "./styles";
+import { Experience, Title, Wrapper } from "./styles";
 
 export const Experiences = ({ data }) => {
   return (
@@ -10,7 +9,7 @@ export const Experiences = ({ data }) => {
       <Title>Experiências Profissionais</Title>
       {data.allExperiences.map((exp, i) => {
         return (
-          <div key={"project" + i}>
+          <Experience key={"project" + i}>
             <Wrapper>
               <Company
                 name={exp.companyName}
@@ -19,10 +18,9 @@ export const Experiences = ({ data }) => {
                 role={exp.role}
                 techs={[...exp.techs]}
               />
-              {/* <Techs data={[...exp.techs]} /> */}
             </Wrapper>
-            <Projects data={exp.projects} />
-          </div>
+            {exp.projects.length > 1 && <Projects data={exp.projects} />}
+          </Experience>
         );
       })}
     </Section>
