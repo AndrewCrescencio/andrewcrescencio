@@ -6,3 +6,5 @@ export const Title = styled.h1`
   font-size: 32px;
   margin-bottom: 48px;
 `;
+
+export const Wrapper = styled.div``;

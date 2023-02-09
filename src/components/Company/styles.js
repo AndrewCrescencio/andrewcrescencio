@@ -5,7 +5,7 @@ export const Card = styled.div`
   justify-content: center;
   align-items: center;
   gap: 32px;
-  margin: 0 auto 64px;
+  margin: 0 auto 32px;
 `;
 
 export const CardTitle = styled.h2``;

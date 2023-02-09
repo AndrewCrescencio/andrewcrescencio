@@ -1,8 +1,9 @@
 import Image from "next/image";
 import { Card, CardSubTitle, CardTitle } from "./styles";
 import { Responsibilities } from "../Responsibilities";
+import { Techs } from "../Techs";
 
-export const Company = ({ name, logo, role, responsibilities }) => {
+export const Company = ({ name, logo, role, responsibilities, techs }) => {
   return (
     <Card>
       <Image
@@ -14,8 +15,8 @@ export const Company = ({ name, logo, role, responsibilities }) => {
       <div>
         <CardTitle>{name}</CardTitle>
         <CardSubTitle>cargo: {role}</CardSubTitle>
-
         <Responsibilities data={responsibilities} />
+        <Techs data={[...techs]} />
       </div>
     </Card>
   );

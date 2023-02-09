@@ -5,6 +5,7 @@ import { request } from "../services/datocms";
 
 import { GithubReadme } from "@/components/GithubReadme";
 import { Experiences } from "@/components/Experiences";
+import { EXPERIENCES_QUERY } from "@/graphql/queries/experiences";
 
 export default function Index({ data, cmsData }) {
   return (
@@ -18,57 +19,13 @@ export default function Index({ data, cmsData }) {
   );
 }
 
-const HOMEPAGE_QUERY = `query CmsData {
-  allExperiences {
-    id
-    companyName
-    companyImage {
-      url
-      width
-      height
-    }
-    responsibilities {
-      description
-    }
-    role
-    _status
-    _firstPublishedAt
-    projects {
-      projectImage {
-        url
-        alt
-        width
-        height
-      }
-      projectTitle
-      projectLink
-      projectResponsibilities {
-        description
-      }
-      technologies {
-        techImage{
-          url
-          width
-          height
-        }
-        techName
-      }
-    }
-  }
-
-  _allExperiencesMeta {
-    count
-  }
-}
-`;
-
 export const getStaticProps = async () => {
   let data = null;
   let cmsData = null;
   try {
     data = await getReadmeMd();
     cmsData = await await request({
-      query: HOMEPAGE_QUERY,
+      query: EXPERIENCES_QUERY,
     });
   } catch (e) {
     data = null;
