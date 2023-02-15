@@ -3,7 +3,7 @@ import { media } from "./media-querie";
 
 export const myTheme = {
   colors: {
-    background: "#181818",
+    background: "#252525",
     text: "#fff",
   },
 };
