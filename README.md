@@ -81,7 +81,7 @@ Atualmente trabalho como desenvolvedor Front-end. No trabalho utilizo as ferrame
 ![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white)
 ![.Net](https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white)
 
-##### Algumas outras coisas que tenho interesse em aprender...
+#### Algumas outras coisas que tenho interesse em aprender...
 
 ![React Native](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Electron.js](https://img.shields.io/badge/Electron-191970?style=for-the-badge&logo=Electron&logoColor=white)
