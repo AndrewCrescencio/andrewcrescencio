@@ -47,4 +47,7 @@ export const CardButton = styled.button`
   width: 100%;
   padding: 12px 0;
   cursor: pointer;
+  background-color: ${({theme}) => theme.colors.text};
+  font-weight: 600;
+  font-family: inherit;
 `;
