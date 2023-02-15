@@ -3,24 +3,13 @@ import { media } from "./media-querie";
 
 export const myTheme = {
   colors: {
-    background: "var(--background)",
-    text: "var(--text)",
+    background: "#181818",
+    text: "#fff",
   },
 };
 
 export const GlobalStyles = createGlobalStyle`
-  :root {
-   --background: #fff;
-   --text: #121212;
-  }
-
-  [data-theme="dark"] {
-    --background: #121212;
-    --text: #fff;
-  }
-  
   * {
-    /* outline: 1px solid red; */
     margin: 0;
     padding: 0;
     box-sizing: border-box !important;
