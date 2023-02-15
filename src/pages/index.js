@@ -24,7 +24,6 @@ export const getStaticProps = async () => {
   let cmsData = null;
   try {
     data = await getReadmeMd();
-    console.log(data)
     cmsData = await await request({
       query: EXPERIENCES_QUERY,
     });
