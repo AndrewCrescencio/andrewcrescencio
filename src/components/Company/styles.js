@@ -1,3 +1,4 @@
+import Image from "next/image";
 import styled from "styled-components";
 export const Card = styled.div`
   display: flex;
@@ -8,6 +9,11 @@ export const Card = styled.div`
   margin: 0 auto 32px;
 `;
 
+export const CardImage = styled(Image)`
+  width: 100%;
+  max-width: 298px;
+  height: auto;
+`;
 export const CardTitle = styled.h2``;
 
 export const CardSubTitle = styled.h3``;

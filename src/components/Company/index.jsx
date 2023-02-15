@@ -1,12 +1,11 @@
-import Image from "next/image";
-import { Card, CardSubTitle, CardTitle } from "./styles";
+import { Card, CardImage, CardSubTitle, CardTitle } from "./styles";
 import { Responsibilities } from "../Responsibilities";
 import { Techs } from "../Techs";
 
 export const Company = ({ name, logo, role, responsibilities, techs }) => {
   return (
     <Card>
-      <Image
+      <CardImage
         width={logo.width}
         height={logo.height}
         src={logo.url}
