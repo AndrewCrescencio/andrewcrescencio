@@ -42,6 +42,7 @@ export const Box = styled.div`
   }
 
   h4 {
+    margin-bottom: 20px;
     font-weight: 400;
     font-size: 18px;
     margin-bottom: 8px;
