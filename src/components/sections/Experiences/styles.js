@@ -4,7 +4,7 @@ export const Title = styled.h1`
   text-align: center;
   display: block;
   font-size: 32px;
-  margin-bottom: 48px;
+  margin-bottom: 94px;
 `;
 
 export const Experience = styled.div`

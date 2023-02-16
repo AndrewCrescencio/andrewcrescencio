@@ -3,8 +3,8 @@ import { media } from "./media-querie";
 
 export const myTheme = {
   colors: {
-    background: "#252525",
-    text: "#fff",
+    black: "#252525",
+    white: "#fff",
   },
 };
 
@@ -30,8 +30,8 @@ export const GlobalStyles = createGlobalStyle`
     overflow-x: hidden;
     box-sizing: border-box !important;
     font-family: 'Ubuntu', sans-serif;
-    background-color: ${({ theme }) => theme.colors.background};
-    color: ${({ theme }) => theme.colors.text};
+    background-color: ${({ theme }) => theme.colors.black};
+    color: ${({ theme }) => theme.colors.white};
     padding-top: 56px;
     scroll-padding-top: 56px;
     ${media.tablet`

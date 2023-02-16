@@ -1,5 +1,5 @@
 import { Section } from "@/components/layout/Section";
-import { Company } from "@/components/UI/Company";
+import { CompanyInfo } from "@/components/UI/CompanyInfo";
 import { Projects } from "../Projects";
 import { Experience, Title, Wrapper } from "./styles";
 
@@ -11,12 +11,12 @@ export const Experiences = ({ data }) => {
         return (
           <Experience key={"project" + i}>
             <Wrapper>
-              <Company
+              <CompanyInfo
                 name={exp.companyName}
                 logo={exp.companyImage}
                 responsibilities={exp.responsibilities}
                 role={exp.role}
-                techs={[...exp.techs]}
+                time={exp.companyTime}
               />
             </Wrapper>
             {exp.projects.length > 1 && <Projects data={exp.projects} />}

@@ -1,5 +1,6 @@
 import styled from "styled-components";
 
+export const Container = styled.div``
 export const Heading = styled.p`
   font-size: 18px;
   font-weight: 400;

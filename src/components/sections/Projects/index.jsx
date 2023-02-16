@@ -1,5 +1,3 @@
-import Image from "next/image";
-import { useEffect } from "react";
 import { ProjectCard } from "../../UI/ProjectCard";
 import { ProjectsContainer, Title } from "./styles";
 

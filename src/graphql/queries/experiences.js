@@ -2,6 +2,7 @@ export const EXPERIENCES_QUERY = `query EXPERIENCES_QUERY {
   allExperiences {
     id
     companyName
+    companyTime
     companyImage {
       url
       width
@@ -11,14 +12,6 @@ export const EXPERIENCES_QUERY = `query EXPERIENCES_QUERY {
       description
     }
     role
-    techs {
-      techImage{
-        url
-        alt
-        width
-        height
-      }
-    }
     projects {
       projectImage {
         url

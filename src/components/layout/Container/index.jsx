@@ -12,7 +12,4 @@ export const Container = styled.div`
   ${media.tablet`
     padding: 0 48px;
   `}
-  ${media.laptop`
-    padding: 0 64px;
-  `}
 `;

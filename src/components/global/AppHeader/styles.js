@@ -7,7 +7,7 @@ export const Header = styled.header`
   left: 0;
   width: 100%;
   z-index: 3;
-  background-color: ${({ theme }) => theme.colors.background};
+  background-color: ${({ theme }) => theme.colors.black};
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
 `;
 export const Wrapper = styled.nav`

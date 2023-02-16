@@ -7,9 +7,6 @@ export const ProjectsContainer = styled.div`
   margin: 0 auto;
   gap: 24px;
   ${media.tablet`
-    gap: 32px;
-  `}
-  ${media.laptop`
     gap: 48px;
   `}
 `;

@@ -1,8 +1,8 @@
-import { Heading, List, ListItem } from "./styles";
+import { Container, Heading, List, ListItem } from "./styles";
 
 export const Responsibilities = ({ data }) => {
   return (
-    <>
+    <Container>
       <Heading>Responsabilidades:</Heading>
       <List>
         {data.map((responsibility, i) => {
@@ -13,6 +13,6 @@ export const Responsibilities = ({ data }) => {
           );
         })}
       </List>
-    </>
+    </Container>
   );
 };
