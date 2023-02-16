@@ -1,6 +1,6 @@
-import { Company } from "../Company";
+import { Section } from "@/components/layout/Section";
+import { Company } from "@/components/UI/Company";
 import { Projects } from "../Projects";
-import { Section } from "../UI/Section";
 import { Experience, Title, Wrapper } from "./styles";
 
 export const Experiences = ({ data }) => {

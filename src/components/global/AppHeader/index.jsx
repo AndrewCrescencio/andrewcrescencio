@@ -1,6 +1,6 @@
-import { SocialLinks } from "../SocialLinks";
-import { Container } from "../UI/Container";
-import { Header, Logo, Wrapper } from "./styles";
+import { Container } from "@/components/layout/Container";
+import { SocialLinks } from "@/components/UI/SocialLinks";
+import { Header, Wrapper, Logo } from "./styles";
 
 export const AppHeader = () => {
   return (

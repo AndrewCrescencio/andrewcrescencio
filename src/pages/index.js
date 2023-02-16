@@ -1,11 +1,11 @@
 import Head from "next/head";
 
+import { GithubReadme } from "@/components/sections/GithubReadme";
+import { Experiences } from "@/components/sections/Experiences";
 import { getReadmeMd } from "@/services/get-readme-md";
-import { request } from "../services/datocms";
-
-import { GithubReadme } from "@/components/GithubReadme";
-import { Experiences } from "@/components/Experiences";
 import { EXPERIENCES_QUERY } from "@/graphql/queries/experiences";
+import { request } from "@/services/datocms";
+
 
 export default function Index({ data, cmsData }) {
   return (

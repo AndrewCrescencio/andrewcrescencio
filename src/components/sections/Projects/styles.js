@@ -5,10 +5,7 @@ export const ProjectsContainer = styled.div`
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(288px, 1fr));
   margin: 0 auto;
-  gap: 16px;
-  ${media.phone`
-    gap: 24px;
-  `}
+  gap: 24px;
   ${media.tablet`
     gap: 32px;
   `}

@@ -1,4 +1,4 @@
-import { AppHeader } from "@/components/AppHeader";
+import { AppHeader } from "@/components/global/AppHeader";
 import { AppMain } from "./styles";
 
 export default function AppLayout({ children }) {

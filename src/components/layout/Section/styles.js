@@ -1,8 +1,7 @@
+import styled from "styled-components"
 import { media } from "@/styles/media-querie";
-import styled from "styled-components";
-import { Container } from "../Container";
 
-const StyledSection = styled.section`
+export const Section = styled.section`
   padding-bottom: 64px;
   &:first-of-type {
     padding-top: 48px;
@@ -18,11 +17,3 @@ const StyledSection = styled.section`
     padding-bottom: 128px;
   `}
 `;
-
-export const Section = ({ children }) => {
-  return (
-    <StyledSection>
-      <Container>{children}</Container>
-    </StyledSection>
-  );
-};

@@ -1,4 +1,4 @@
-import { ErrorDisplay } from "@/components/ErrorDisplay";
+import { ErrorDisplay } from "@/components/UI/ErrorDisplay";
 
 function Error({ statusCode }) {
   return (
