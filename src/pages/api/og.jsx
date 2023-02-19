@@ -13,8 +13,8 @@ export default async function handler() {
         style={{
           display: "flex",
           fontSize: 40,
-          color: "black",
-          background: "white",
+          color: "white",
+          background: "#181818",
           width: "100%",
           height: "100%",
           textAlign: "center",

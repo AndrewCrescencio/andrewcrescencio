@@ -8,29 +8,28 @@ import { request } from "@/services/datocms";
 import { Hero } from "@/components/sections/Hero";
 import { Intro } from "@/components/sections/Intro";
 
-
 export default function Index({ data, cmsData }) {
   return (
     <>
       <Head>
         <title>Andrew Crescencio</title>
         <link rel="canonical" href="https://www.andrewcrescencio.com/" />
-          <meta
-            name="description"
-            content="Desenvolvedor Front-end, resolvendo problemas com o poder da tecnologia"
-          />
-          <meta name="author" content="Andrew Crescencio" />
-          <meta property="og:image" content="https://www.andrewcrescencio.com/api/og" />
-          <meta name="og:site_name" content="AndrewCrescencio.com" />
-          <meta name="og:type" content="website" />
-          <meta name="og:title" content="Andrew Crescencio" />
-          <meta
-            name="og:description"
-            content="Desenvolvedor Front-end, resolvendo problemas com o poder da tecnologia"
-          />
+        <meta property="og:url" content="https://www.andrewcrescencio.com/" />
+        <meta name="og:site_name" content="AndrewCrescencio.com" />
+        <meta name="og:title" content="Andrew Crescencio" />
+        <meta
+          name="description"
+          content="Resolvendo problemas com o poder da tecnologia"
+        />
+        <meta
+          property="og:image"
+          content="https://www.andrewcrescencio.com/api/og"
+        />
+        <meta name="author" content="Andrew Crescencio" />
+        <meta name="og:type" content="website" />
       </Head>
-      <Hero/>
-      <Intro/>
+      <Hero />
+      <Intro />
       <Experience experience={cmsData.experience} />
       <GithubReadme markdown={data} />
     </>
