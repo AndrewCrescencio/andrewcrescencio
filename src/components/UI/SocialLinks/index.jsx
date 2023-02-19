@@ -17,7 +17,7 @@ export const social_icons = [
     id: 1,
     title: "Email me",
     icon: <IconEnvelopeAt />,
-    url: "mailto:andrew_workstation@hotmail.com",
+    url: "mailto:mail@andrewcrescencio.com",
   },
   {
     id: 2,
