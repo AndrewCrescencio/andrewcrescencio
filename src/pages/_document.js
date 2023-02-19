@@ -34,6 +34,7 @@ export default class MyDocument extends Document {
             content="Desenvolvedor Front-end, resolvendo problemas com o poder da tecnologia"
           />
           <meta name="author" content="Andrew Crescencio" />
+          <meta property="og:image" content="https://www.andrewcrescencio.com/api/og" />
           <meta name="og:site_name" content="AndrewCrescencio.com" />
           <meta name="og:type" content="website" />
           <meta name="og:title" content="Andrew Crescencio" />
