@@ -1,27 +1,34 @@
 import React from "react";
-import { FaGithubSquare } from "react-icons/fa";
-import { FaEnvelope } from "react-icons/fa";
-import { FaLinkedin } from "react-icons/fa";
+import { IconEnvelopeAt } from "@/components/icons/EnvelopeAt";
+import { IconLinkedin } from "@/components/icons/Linkedin";
+import { IconWhatsapp } from "@/components/icons/Whatsapp";
+import { IconGithub } from "@/components/icons/Github";
 
 import { Link, List, ListItem } from "./styles";
 
 export const social_icons = [
   {
+    id: 4,
+    title: "WhatsApp",
+    icon: <IconWhatsapp />,
+    url: "https://wa.me/+5511939427129/",
+  },
+  {
     id: 1,
     title: "Email me",
-    icon: <FaEnvelope />,
+    icon: <IconEnvelopeAt />,
     url: "mailto:andrew_workstation@hotmail.com",
   },
   {
     id: 2,
     title: "GitHub",
-    icon: <FaGithubSquare />,
+    icon: <IconGithub />,
     url: "https://github.com/AndrewCrescencio",
   },
   {
     id: 3,
     title: "LinkedIn",
-    icon: <FaLinkedin />,
+    icon: <IconLinkedin />,
     url: "https://www.linkedin.com/in/andrewcrescencio/",
   },
 ];

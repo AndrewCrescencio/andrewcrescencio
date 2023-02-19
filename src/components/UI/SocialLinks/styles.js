@@ -1,13 +1,15 @@
 import styled from "styled-components";
 
 export const List = styled.ul`
-  display: flex !important;
+  display: flex;
   align-items: center;
   gap: 16px;
 `;
 
-export const ListItem = styled.li``;
+export const ListItem = styled.li`
+  font: inherit;
+`;
 
 export const Link = styled.a`
-  font-size: 20px;
+  font: inherit;
 `;

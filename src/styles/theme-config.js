@@ -5,7 +5,15 @@ export const myTheme = {
   colors: {
     black: "#252525",
     white: "#fff",
+    navbarBg: "#1E1E1E"
   },
+  sizes: {
+    xs:8,
+    sm:16,
+    md:34,
+    lg:64,
+    xl:128,
+  }
 };
 
 export const GlobalStyles = createGlobalStyle`
@@ -15,6 +23,10 @@ export const GlobalStyles = createGlobalStyle`
     box-sizing: border-box !important;
   }
 
+  html {
+    scroll-behavior: smooth;
+  }
+  
   ul {
     list-style: none;
     list-style-type: none;

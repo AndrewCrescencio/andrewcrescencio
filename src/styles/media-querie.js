@@ -1,10 +1,10 @@
 import { css } from "styled-components";
 
 export const sizes = {
-  desktop: 1440,
-  laptop: 1024,
-  tablet: 768,
   phone: 375,
+  tablet: 768,
+  desktop: 1440,
+  laptop: 1280,
 };
 
 export const media = Object.keys(sizes).reduce((accumulator, label) => {
