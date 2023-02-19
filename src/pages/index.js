@@ -14,6 +14,20 @@ export default function Index({ data, cmsData }) {
     <>
       <Head>
         <title>Andrew Crescencio</title>
+        <link rel="canonical" href="https://www.andrewcrescencio.com/" />
+          <meta
+            name="description"
+            content="Desenvolvedor Front-end, resolvendo problemas com o poder da tecnologia"
+          />
+          <meta name="author" content="Andrew Crescencio" />
+          <meta property="og:image" content="https://www.andrewcrescencio.com/api/og" />
+          <meta name="og:site_name" content="AndrewCrescencio.com" />
+          <meta name="og:type" content="website" />
+          <meta name="og:title" content="Andrew Crescencio" />
+          <meta
+            name="og:description"
+            content="Desenvolvedor Front-end, resolvendo problemas com o poder da tecnologia"
+          />
       </Head>
       <Hero/>
       <Intro/>
