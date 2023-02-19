@@ -4,7 +4,6 @@ import { ProjectCard } from "../../UI/ProjectCard";
 import { ProjectsContainer } from "./styles";
 
 export const Projects = ({ data }) => {
-  console.log(data)
   return (
     <Section>
       <SubTitle textAlign={["center"]} marginBottom={['64px']}>Alguns dos projetos que participei</SubTitle>
