@@ -1,15 +1,18 @@
+import { Section } from "@/components/layout/Section";
+import { SubTitle } from "@/components/typography";
 import { ProjectCard } from "../../UI/ProjectCard";
-import { ProjectsContainer, Title } from "./styles";
+import { ProjectsContainer } from "./styles";
 
 export const Projects = ({ data }) => {
+  console.log(data)
   return (
-    <>
-      <Title as="h2">Alguns dos projetos que participei</Title>
+    <Section>
+      <SubTitle textAlign={["center"]} marginBottom={['64px']}>Alguns dos projetos que participei</SubTitle>
       <ProjectsContainer>
         {data.map((project, i) => {
           return <ProjectCard {...project} key={i} />;
         })}
       </ProjectsContainer>
-    </>
+    </Section>
   );
 };

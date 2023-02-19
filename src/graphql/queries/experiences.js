@@ -1,34 +1,21 @@
 export const EXPERIENCES_QUERY = `query EXPERIENCES_QUERY {
-  allExperiences {
-    id
-    companyName
-    companyTime
-    companyImage {
-      url
-      width
-      height
+  experience {
+    companies {
+      companyName
+      companyImage {
+        url
+        width
+        height
+      }
+      companyRole
+      companyTime
     }
-    responsibilities {
-      description
-    }
-    role
     projects {
+      projectTitle
       projectImage {
         url
-        alt
       }
-      projectTitle
       projectLink
-      projectResponsibilities {
-        description
-      }
-      technologies {
-        techImage{
-          url
-          width
-          height
-        }
-      }
     }
   }
 }

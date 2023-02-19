@@ -1,15 +1,19 @@
 import { Container } from "@/components/layout/Container";
 import { SocialLinks } from "@/components/UI/SocialLinks";
-import { Header, Wrapper, Logo } from "./styles";
+import { Logo } from "../Logo";
+import { Header, Navbar, Name } from "./styles";
 
 export const AppHeader = () => {
   return (
     <Header>
       <Container>
-        <Wrapper>
-          <Logo>Andrew Crescencio</Logo>
+        <Navbar>
+          <a href="#">
+            <Logo width="34" height="33"/>
+            <Name>Andrew Crescencio</Name>
+          </a>
           <SocialLinks />
-        </Wrapper>
+        </Navbar>
       </Container>
     </Header>
   );
