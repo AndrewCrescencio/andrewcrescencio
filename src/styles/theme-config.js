@@ -3,9 +3,14 @@ import { media } from "./media-querie";
 
 export const myTheme = {
   colors: {
-    black: "#252525",
-    white: "#fff",
-    navbarBg: "#1E1E1E"
+    black: "#121212",
+    white: "rgba(255, 255, 255, 1)",
+    onSurfaceHighEmphasis: 'rgba(255, 255, 255, 0.87)',
+    onSurfaceMediumEmphasis: 'rgba(255, 255, 255, 0.6)',
+    onSurfaceDisabled: 'rgba(255, 255, 255, 0.6)',
+    primary: '#BB86FC',
+    navbarBg: "#1E1E1E",
+    divider: 'rgba(255, 255, 255, 0.12)'
   },
   sizes: {
     xs:8,
@@ -43,7 +48,7 @@ export const GlobalStyles = createGlobalStyle`
     box-sizing: border-box !important;
     font-family: 'Ubuntu', sans-serif;
     background-color: ${({ theme }) => theme.colors.black};
-    color: ${({ theme }) => theme.colors.white};
+    color: ${({ theme }) => theme.colors.onSurfaceHighEmphasis};
     padding-top: 56px;
     scroll-padding-top: 56px;
     ${media.tablet`

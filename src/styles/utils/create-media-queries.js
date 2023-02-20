@@ -1,4 +1,4 @@
-const breakpoints = [320, 768, 1280, 1440];
+const breakpoints = [768, 1280, 1440];
 
 export const createMediaQueries = (css) => {
   const cssKeyValuePairs = css.reduce((items, item) => {
