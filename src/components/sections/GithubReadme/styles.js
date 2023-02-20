@@ -4,7 +4,7 @@ import styled from "styled-components";
 export const Box = styled.div`
   width: 100%;
   padding: 16px;
-  border: 1px solid #444c56;
+  border: 1px solid ${({ theme }) => theme.colors.divider};
   border-radius: 4px;
 
   h1 {
@@ -13,7 +13,7 @@ export const Box = styled.div`
     line-height: 1.25;
     padding-bottom: 0.3em;
     font-size: 32px;
-    border-bottom: 1px solid #444c56;
+    border-bottom: 1px solid ${({ theme }) => theme.colors.divider};
     ${media.laptop`
       font-size: 48px;
     `}
@@ -26,7 +26,7 @@ export const Box = styled.div`
     line-height: 1.25;
     padding-bottom: 0.3em;
     font-size: 24px;
-    border-bottom: 1px solid #444c56;
+    border-bottom: 1px solid ${({ theme }) => theme.colors.divider};
     ${media.laptop`
       font-size: 32px;
     `}

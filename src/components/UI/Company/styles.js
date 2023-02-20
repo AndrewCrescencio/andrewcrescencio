@@ -9,7 +9,6 @@ export const Info = styled.div`
 `;
 
 export const CompanyLogo = styled(Image)`
-  width: 100%;
-  max-width: 150px;
-  height: auto;
+  width: 150px;
+  height: 108.46px;
 `;

@@ -4,7 +4,7 @@ export const Banner = styled.div`
   background-color: ${({ theme }) => theme.colors.black};
   color: ${({ theme }) => theme.colors.white};
   position: relative;
-  border-bottom: 1px solid #444c56;
+  border-bottom: 1px solid ${({ theme }) => theme.colors.divider};
   &::before {
     position: absolute;
     top: 0;
@@ -27,7 +27,10 @@ export const Wrapper = styled.div`
   height: 560px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
+  @media (min-width: 768px) {
+    justify-content: space-between;
+  }
   svg {
     display: none;
     @media (min-width: 768px) {

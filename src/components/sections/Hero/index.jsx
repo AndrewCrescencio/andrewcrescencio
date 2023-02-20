@@ -9,9 +9,8 @@ export const Hero = () => {
     <Banner>
       <Container>
         <Wrapper>
-          <SubTitle as="h1">
-            Solucionando problemas <br />
-            com o poder da tecnologia.
+          <SubTitle textAlign={["center", "left"]}>
+            Solucionando problemas com o poder da tecnologia.
           </SubTitle>
           <Logo />
         </Wrapper>
