@@ -24,12 +24,19 @@ export const Banner = styled.div`
 
 export const Wrapper = styled.div`
   width: 100%;
-  height: 560px;
+  height: calc(100vh - 63px);
   display: flex;
   align-items: center;
   justify-content: center;
   @media (min-width: 768px) {
     justify-content: space-between;
+    height: 560px;
+  }
+  h2 {
+    max-width: 440px;
+    @media (min-width: 1440px) {
+      max-width: 520px;
+    }
   }
   svg {
     display: none;

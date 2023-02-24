@@ -49,11 +49,11 @@ export const GlobalStyles = createGlobalStyle`
     font-family: 'Ubuntu', sans-serif;
     background-color: ${({ theme }) => theme.colors.black};
     color: ${({ theme }) => theme.colors.onSurfaceHighEmphasis};
-    padding-top: 56px;
-    scroll-padding-top: 56px;
-    ${media.tablet`
-      padding-top: 64px;
-      scroll-padding-top: 64px;
+    padding-top: 63px;
+    scroll-padding-top: 63px;
+    ${media.desktop`
+      padding-top: 73px;
+      scroll-padding-top: 73px;
   `}
   }
 `;
