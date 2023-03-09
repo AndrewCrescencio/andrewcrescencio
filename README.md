@@ -19,7 +19,7 @@ Atualmente trabalho como desenvolvedor Front-end. No trabalho utilizo as ferrame
 ![Nuxtjs](https://img.shields.io/badge/Nuxt-002E3B?style=for-the-badge&logo=nuxtdotjs&logoColor=#00DC82)
 ![VueJs](https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D)
 ![jQuery](https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white)
-![Angular](https://img.shields.io/badge/angular-%23DD0031.svg?style=for-the-badge&logo=angular&logoColor=white)
+
 
 ### 🎨 Css, Css in Js, bibliotecas e frameworks 🧩
 
@@ -60,9 +60,7 @@ Atualmente trabalho como desenvolvedor Front-end. No trabalho utilizo as ferrame
 ![Adobe XD](https://img.shields.io/badge/Adobe%20XD-470137?style=for-the-badge&logo=Adobe%20XD&logoColor=#FF61F6)
 ![Adobe Photoshop](https://img.shields.io/badge/adobe%20photoshop-%2331A8FF.svg?style=for-the-badge&logo=adobe%20photoshop&logoColor=white)
 
-<br>
-<br>
 
-### 📖 GitHub de estudos: [@AndrewCrescencioLearning](https://github.com/AndrewCrescencioLearning) 👀
+#### 📖 GitHub de estudos: [@AndrewCrescencioLearning](https://github.com/AndrewCrescencioLearning) 👀
 
-[comment]: # "![Redux](https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white)"
+[comment]: # "![Redux](https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white)![Angular](https://img.shields.io/badge/angular-%23DD0031.svg?style=for-the-badge&logo=angular&logoColor=white)"
