@@ -61,6 +61,6 @@ Atualmente trabalho como desenvolvedor Front-end. No trabalho utilizo as ferrame
 ![Adobe Photoshop](https://img.shields.io/badge/adobe%20photoshop-%2331A8FF.svg?style=for-the-badge&logo=adobe%20photoshop&logoColor=white)
 
 
-#### 📖 GitHub de estudos: [@AndrewCrescencioLearning](https://github.com/AndrewCrescencioLearning) 👀
+[comment]: # "#### 📖 GitHub de estudos: [@AndrewCrescencioLearning](https://github.com/AndrewCrescencioLearning) 👀"
 
 [comment]: # "![Redux](https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white)![Angular](https://img.shields.io/badge/angular-%23DD0031.svg?style=for-the-badge&logo=angular&logoColor=white)"
