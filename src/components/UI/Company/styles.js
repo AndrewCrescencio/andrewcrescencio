@@ -5,10 +5,12 @@ export const Info = styled.div`
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
   gap: 32px;
 `;
 
 export const CompanyLogo = styled(Image)`
-  width: 150px;
-  height: 108.46px;
+  width: 100%;
+  max-width: 154px;
+  height: auto;
 `;
