@@ -4,6 +4,9 @@ import { Differentials } from "@/components/UI/Differentials";
 
 export const Intro = () => {
   return (
+    <div id="">
+      <div id="intro">
+
     <Section black>
       <Title marginBottom={["16px"]} textAlign={['center', 'left']}>O que faço?</Title>
       <Text marginBottom={["128px"]}>
@@ -13,5 +16,7 @@ export const Intro = () => {
       </Text>
       <Differentials/>
     </Section>
+    </div>
+      </div>
   );
 };
