@@ -59,7 +59,4 @@ Atualmente trabalho como desenvolvedor front-end, utilizando principalmente as f
 ![Adobe XD](https://img.shields.io/badge/Adobe%20XD-470137?style=for-the-badge&logo=Adobe%20XD&logoColor=#FF61F6)
 ![Adobe Photoshop](https://img.shields.io/badge/adobe%20photoshop-%2331A8FF.svg?style=for-the-badge&logo=adobe%20photoshop&logoColor=white)
 
-#### 📖 GitHub de estudos: [@AndrewCrescencioLearning](https://github.com/AndrewCrescencioLearning) 👀
-
-
 [comment]: # "![Redux](https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white)![Angular](https://img.shields.io/badge/angular-%23DD0031.svg?style=for-the-badge&logo=angular&logoColor=white)"
