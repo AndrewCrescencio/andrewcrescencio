@@ -2,8 +2,6 @@
 
 Sou um desenvolvedor que está sempre buscando conhecimento e novos desafios.
 
-Atualmente trabalho como desenvolvedor front-end, utilizando principalmente as ferramentas do ecossistema VueJs.
-
 ## 👨‍💻 Tecnologias que utilizo
 
 ![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
