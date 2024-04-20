@@ -8,7 +8,7 @@ export const AppHeader = () => {
     <Header>
       <Container>
         <Navbar>
-          <a href="#">
+          <a href="#" aria-label='link para rolar até o topo da página'>
             <Logo width="34" height="33"/>
             <Name>Andrew Crescencio</Name>
           </a>
