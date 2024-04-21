@@ -16,15 +16,12 @@ export default function Index({ data, cmsData }) {
         <link rel="canonical" href="https://www.andrewcrescencio.com/" />
         <meta property="og:url" content="https://www.andrewcrescencio.com/" />
         <meta name="og:site_name" content="AndrewCrescencio.com" />
-        <meta name="og:title" content="Andrew Crescencio" />
+        <meta name="og:title" content="Andrew Crescencio - Desenvolvedor Frontend" />
         <meta
           name="description"
-          content="Resolvendo problemas com o poder da tecnologia"
+          content="Desenvolvedor Frontend Web, atuo no desenvolvimento de aplicações com JavaScript, TypeScript, Vue.js, React.js e desenvolvimento de plugins e temas para WordPress"
         />
-        <meta
-          property="og:image"
-          content="https://www.andrewcrescencio.com/api/og"
-        />
+        <meta property="og:image" content="https://www.andrewcrescencio.com/api/og" />
         <meta name="author" content="Andrew Crescencio" />
         <meta name="og:type" content="website" />
       </Head>
