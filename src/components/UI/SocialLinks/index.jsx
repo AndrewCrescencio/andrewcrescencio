@@ -11,7 +11,7 @@ export const social_icons = [
     id: 4,
     title: "WhatsApp",
     icon: <IconWhatsapp />,
-    url: "https://wa.me/+5511939427129/",
+    url: "https://wa.me/+5511939475095/",
   },
   {
     id: 1,
