@@ -12,10 +12,10 @@ export const Box = styled.div`
     font-weight: 600;
     line-height: 1.25;
     padding-bottom: 0.3em;
-    font-size: 32px;
+    font-size: 26px;
     border-bottom: 1px solid ${({ theme }) => theme.colors.divider};
     ${media.laptop`
-      font-size: 48px;
+      font-size: 36px;
     `}
   }
 
@@ -32,7 +32,7 @@ export const Box = styled.div`
     `}
   }
 
-  h3 {
+  h3, h4 {
     font-weight: 500;
     margin-bottom: 20px;
     font-size: 18px;
@@ -41,7 +41,7 @@ export const Box = styled.div`
     `}
   }
 
-  h4 {
+  h5, h6 {
     margin-bottom: 20px;
     font-weight: 400;
     font-size: 18px;

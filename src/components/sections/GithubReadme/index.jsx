@@ -8,11 +8,9 @@ import { Title } from "@/components/typography";
 export const GithubReadme = ({ markdown }) => {
   return (
     <Section black>
-      <Title marginBottom={["128px"]} textAlign={['center']}>Github</Title>
+      {/* <Title marginBottom={["128px"]} textAlign={['center']}>Github</Title> */}
       <Box>
-        <ReactMarkdown remarkPlugins={[remarkGfm, remarkGemoji]}>
-          {markdown}
-        </ReactMarkdown>
+        <ReactMarkdown remarkPlugins={[remarkGfm, remarkGemoji]}>{markdown}</ReactMarkdown>
       </Box>
     </Section>
   );
