@@ -1,7 +1,7 @@
 export const IconChevronDown = () => {
   function scrollToElement(el) {
-    const section = document.getElementById(el)
-    section.scrollIntoView({behavior: "smooth"})
+    const section = document.getElementById(el);
+    section.scrollIntoView({ behavior: "smooth" });
   }
   return (
     <svg
@@ -9,8 +9,8 @@ export const IconChevronDown = () => {
       width="1em"
       height="1em"
       viewBox="0 0 24 24"
-      style={{cursor: 'pointer'}}
-      onClick={() => scrollToElement('intro')}
+      style={{ cursor: "pointer" }}
+      onClick={() => scrollToElement("intro")}
     >
       <path
         fill="none"
@@ -22,4 +22,4 @@ export const IconChevronDown = () => {
       ></path>
     </svg>
   );
-}
+};

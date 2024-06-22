@@ -1,9 +1,9 @@
 import { Section as StyledSection } from "./styles";
 import { Container } from "../Container";
 
-export const Section = ({ children, black }) => {
+export const Section = ({ children, black, id }) => {
   return (
-    <StyledSection black={black}>
+    <StyledSection black={black} id={id}>
       <Container
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
