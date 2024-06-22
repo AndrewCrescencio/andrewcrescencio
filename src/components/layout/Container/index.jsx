@@ -1,7 +1,8 @@
 import styled from "styled-components";
 import { media } from "@/styles/media-querie";
+import { motion } from "framer-motion";
 
-export const Container = styled.div`
+export const Container = styled(motion.div)`
   width: 100%;
   max-width: 1440px;
   margin: 0 auto;
