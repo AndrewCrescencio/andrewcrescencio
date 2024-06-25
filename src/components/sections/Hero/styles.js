@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const Banner = styled.div`
+export const Banner = styled.section`
   background-color: ${({ theme }) => theme.colors.black};
   color: ${({ theme }) => theme.colors.white};
   position: relative;
