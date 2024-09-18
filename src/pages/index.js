@@ -1,14 +1,14 @@
 import Head from "next/head";
 
-import { GithubReadme } from "@/components/sections/GithubReadme";
+// import { GithubReadme } from "@/components/sections/GithubReadme";
 import { Experience } from "@/components/sections/Experience";
-import { getReadmeMd } from "@/services/get-readme-md";
+// import { getReadmeMd } from "@/services/get-readme-md";
 import { EXPERIENCES_QUERY } from "@/graphql/queries/experiences";
 import { request } from "@/services/datocms";
 import { Hero } from "@/components/sections/Hero";
 import { Intro } from "@/components/sections/Intro";
 
-export default function Index({ data, cmsData }) {
+export default function Index({ cmsData }) {
   return (
     <>
       <Head>
@@ -16,28 +16,33 @@ export default function Index({ data, cmsData }) {
         <link rel="canonical" href="https://www.andrewcrescencio.com/" />
         <meta property="og:url" content="https://www.andrewcrescencio.com/" />
         <meta name="og:site_name" content="AndrewCrescencio.com" />
-        <meta name="og:title" content="Andrew Crescencio - Desenvolvedor Frontend" />
+        <meta
+          name="og:title"
+          content="Andrew Crescencio - Desenvolvedor Frontend"
+        />
         <meta
           name="description"
           content="Desenvolvedor Frontend Web, atuo no desenvolvimento de aplicações com JavaScript, TypeScript, Vue.js, React.js e desenvolvimento de plugins e temas para WordPress"
         />
-        <meta property="og:image" content="https://www.andrewcrescencio.com/api/og" />
+        <meta
+          property="og:image"
+          content="https://www.andrewcrescencio.com/api/og"
+        />
         <meta name="author" content="Andrew Crescencio" />
         <meta name="og:type" content="website" />
       </Head>
       <Hero />
       <Intro />
       <Experience experience={cmsData.experience} />
-      <GithubReadme markdown={data} />
+      {/* <GithubReadme markdown={data} /> */}
     </>
   );
 }
 
 export const getStaticProps = async () => {
-  let data = null;
   let cmsData = null;
   try {
-    data = await getReadmeMd();
+    // data = await getReadmeMd();
     cmsData = await await request({
       query: EXPERIENCES_QUERY,
     });
@@ -45,7 +50,7 @@ export const getStaticProps = async () => {
     data = null;
   }
 
-  if (!data) {
+  if (!cmsData) {
     return {
       notFound: true,
     };
@@ -53,7 +58,6 @@ export const getStaticProps = async () => {
 
   return {
     props: {
-      data,
       cmsData,
     },
     revalidate: 24 * 60 * 60,
