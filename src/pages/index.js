@@ -6,7 +6,6 @@ import { Experience } from "@/components/sections/Experience";
 import { EXPERIENCES_QUERY } from "@/graphql/queries/experiences";
 import { request } from "@/services/datocms";
 import { Hero } from "@/components/sections/Hero";
-import { Intro } from "@/components/sections/Intro";
 
 export default function Index({ cmsData }) {
   return (
@@ -32,7 +31,6 @@ export default function Index({ cmsData }) {
         <meta name="og:type" content="website" />
       </Head>
       <Hero />
-      <Intro />
       <Experience experience={cmsData.experience} />
       {/* <GithubReadme markdown={data} /> */}
     </>
