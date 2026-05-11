@@ -21,9 +21,6 @@ SQL Server · MySQL · PostgreSQL · Supabase
 **Tooling & Infrastructure**
 Docker · CI/CD · Storybook · Git · Vite
 
-**Practices**
-Frontend Architecture · Design Systems · Automated Testing (unit, integration, E2E) · Accessibility (WCAG) · i18n · Code Review · Legacy Modernization
-
 ---
 
 ## Connect
