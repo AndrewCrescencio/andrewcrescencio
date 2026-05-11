@@ -1,17 +1,5 @@
 # Andrew Crescencio
 
-**Software Engineer** focused on building scalable, maintainable web applications across React.js, Next.js, Vue.js, Nuxt.js and TypeScript ecosystems.
-
----
-
-## About
-
-4+ years of experience working across frontend and full stack projects — from design systems and legacy migrations to CI/CD pipelines and Docker optimization.
-
-I've contributed to Design Systems across multiple companies, led a full ERP migration from Angular 12 to Vue 3, reduced Docker image sizes from 1 GB+ to ~200 MB (cutting deploy times by ~40%), and shipped CI/CD pipelines with 80%+ automated test coverage.
-
-Comfortable moving between modern and legacy stacks. I choose technology based on what the product and team actually need — not framework preference.
-
 Currently working full stack with **Vue.js · Node.js · Express.js · SQL Server**, while deepening expertise in **React.js and Next.js**.
 
 ---
