@@ -1,6 +1,6 @@
 # Andrew Crescencio
 
-Currently working full stack with **Vue.js · Node.js · Express.js · SQL Server**, while deepening expertise in **React.js and Next.js**.
+Currently working full stack with **Vue.js · Node.js · Express.js · SQL Server**.
 
 ---
 
