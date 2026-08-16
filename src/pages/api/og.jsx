@@ -26,7 +26,7 @@ export default async function handler() {
         <span style={{display: 'flex', flexDirection: 'column'}}>
           <Title marginBottom={["16px"]}>Andrew Crescencio</Title>
           <br />
-          <SubTitle>Desenvolvedor Front-end</SubTitle>
+          <SubTitle>Engenheiro de Software</SubTitle>
         </span>
         <Logo/>
       </div>

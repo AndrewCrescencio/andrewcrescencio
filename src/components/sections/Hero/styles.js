@@ -38,6 +38,10 @@ export const Wrapper = styled.div`
       max-width: 520px;
     }
   }
+  p {
+    max-width: 560px;
+    margin-top: 24px;
+  }
   svg {
     display: none;
     @media (min-width: 768px) {
