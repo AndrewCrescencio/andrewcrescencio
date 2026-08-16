@@ -2,11 +2,11 @@ import { Companies } from "@/components/UI/Companies";
 import { Company } from "@/components/UI/Company";
 import { Projects } from "../Projects";
 
-export const Experience = ({ experience }) => {
+export const Experience = ({ companies, projects }) => {
   return (
     <>
-      {experience.companies && <Companies data={experience.companies}/>}
-      {experience.projects && <Projects data={experience.projects}/>}
+      {companies && <Companies data={companies} />}
+      {projects?.length > 0 && <Projects data={projects} />}
     </>
   );
 };

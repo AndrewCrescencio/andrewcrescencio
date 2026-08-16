@@ -7,9 +7,11 @@ export const Responsibilities = ({ data }) => {
       <List>
         {data.map((responsibility, i) => {
           return (
-            <ListItem key={"responsibility" + i}>
-              {responsibility.description}
-            </ListItem>
+<ListItem key={"responsibility" + i}>
+            {typeof responsibility === "string"
+              ? responsibility
+              : responsibility.description}
+          </ListItem>
           );
         })}
       </List>
