@@ -7,7 +7,7 @@ export const Section = ({ children, black, id }) => {
       <Container
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
-        viewport={{ once: false, amount: 0.2 }}
+        viewport={{ once: true, amount: 0.2 }}
         transition={{ duration: 1 }}
       >
         {children}
