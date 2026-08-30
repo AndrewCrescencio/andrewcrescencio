@@ -1,13 +1,11 @@
 import Head from "next/head";
 
-// import { GithubReadme } from "@/components/sections/GithubReadme";
 import { Experience } from "@/components/sections/Experience";
-// import { getReadmeMd } from "@/services/get-readme-md";
-import { EXPERIENCES_QUERY } from "@/graphql/queries/experiences";
-import { request } from "@/services/datocms";
+import { Skills } from "@/components/sections/Skills";
 import { Hero } from "@/components/sections/Hero";
+import { companies, projects, skills, profile } from "@/data";
 
-export default function Index({ cmsData }) {
+export default function Index() {
   return (
     <>
       <Head>
@@ -17,12 +15,9 @@ export default function Index({ cmsData }) {
         <meta name="og:site_name" content="AndrewCrescencio.com" />
         <meta
           name="og:title"
-          content="Andrew Crescencio - Desenvolvedor Frontend"
+          content="Andrew Crescencio - Engenheiro de Software"
         />
-        <meta
-          name="description"
-          content="Desenvolvedor Frontend Web, atuo no desenvolvimento de aplicações com JavaScript, TypeScript, Vue.js, React.js e desenvolvimento de plugins e temas para WordPress"
-        />
+        <meta name="description" content={profile.summary} />
         <meta
           property="og:image"
           content="https://www.andrewcrescencio.com/api/og"
@@ -31,33 +26,8 @@ export default function Index({ cmsData }) {
         <meta name="og:type" content="website" />
       </Head>
       <Hero />
-      <Experience experience={cmsData.experience} />
-      {/* <GithubReadme markdown={data} /> */}
+      <Experience companies={companies} projects={projects} />
+      <Skills groups={skills} />
     </>
   );
 }
-
-export const getStaticProps = async () => {
-  let cmsData = null;
-  try {
-    // data = await getReadmeMd();
-    cmsData = await request({
-      query: EXPERIENCES_QUERY,
-    });
-  } catch (e) {
-    data = null;
-  }
-
-  if (!cmsData) {
-    return {
-      notFound: true,
-    };
-  }
-
-  return {
-    props: {
-      cmsData,
-    },
-    revalidate: 24 * 60 * 60,
-  };
-};

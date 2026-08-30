@@ -1,7 +1,8 @@
 import { Logo } from "@/components/global/Logo";
 import { IconChevronDown } from "@/components/icons/ChevronDown";
 import { Container } from "@/components/layout/Container";
-import { SubTitle } from "@/components/typography";
+import { SubTitle, Text } from "@/components/typography";
+import { profile } from "@/data";
 import { Banner, Wrapper } from "./styles";
 
 export const Hero = () => {
@@ -9,9 +10,12 @@ export const Hero = () => {
     <Banner>
       <Container>
         <Wrapper>
-          <SubTitle textAlign={["center", "left"]}>
-            Solucionando problemas com o poder da tecnologia.
-          </SubTitle>
+          <div>
+            <SubTitle textAlign={["center", "left"]}>
+              {profile.tagline}
+            </SubTitle>
+            <Text marginBottom={["24px"]}>{profile.summary}</Text>
+          </div>
           <Logo />
         </Wrapper>
       </Container>

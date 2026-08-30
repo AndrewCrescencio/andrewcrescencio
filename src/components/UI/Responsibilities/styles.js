@@ -1,11 +1,22 @@
 import styled from "styled-components";
+import { media } from "@/styles/media-querie";
 
-export const Container = styled.div``;
+export const Container = styled.div`
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  ${media.laptop`
+    gap: 24px;
+  `}
+`;
 
 export const Heading = styled.p``;
 
 export const List = styled.ul`
   list-style: circle;
+  text-align: left;
+  display: inline-block;
+  margin-top: 16px;
 `;
 
 export const ListItem = styled.li`

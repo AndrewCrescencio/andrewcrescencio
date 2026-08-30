@@ -1,7 +1,9 @@
 export const IconChevronDown = () => {
   function scrollToElement(el) {
     const section = document.getElementById(el);
-    section.scrollIntoView({ behavior: "smooth" });
+    if (section) {
+      section.scrollIntoView({ behavior: "smooth" });
+    }
   }
   return (
     <svg
