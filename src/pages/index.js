@@ -2,9 +2,8 @@ import Head from "next/head";
 
 import { Experience } from "@/components/sections/Experience";
 import { Skills } from "@/components/sections/Skills";
-import { Education } from "@/components/sections/Education";
 import { Hero } from "@/components/sections/Hero";
-import { companies, projects, skills, profile, education } from "@/data";
+import { companies, projects, skills, profile } from "@/data";
 
 export default function Index() {
   return (
@@ -28,7 +27,6 @@ export default function Index() {
       </Head>
       <Hero />
       <Experience companies={companies} projects={projects} />
-      <Education items={education} />
       <Skills groups={skills} />
     </>
   );

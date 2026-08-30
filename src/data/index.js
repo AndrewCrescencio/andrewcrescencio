@@ -147,14 +147,6 @@ export const skills = [
 
 export const projects = [];
 
-export const education = [
-  {
-    degree: "Bacharelado em Engenharia de Software",
-    institution: "Centro Universitário Estácio de São Paulo",
-    period: "2024 – 2028",
-  },
-];
-
 export const languages = [
   { name: "Português", level: "Nativo" },
   { name: "Inglês", level: "Intermediário Superior (B2)", detail: "Leitura técnica, redação e comunicação profissional" },
