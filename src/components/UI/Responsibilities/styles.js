@@ -4,9 +4,9 @@ import { media } from "@/styles/media-querie";
 export const Container = styled.div`
   display: flex;
   flex-direction: column;
-  gap: 64px;
+  gap: 16px;
   ${media.laptop`
-    gap: 96px;
+    gap: 24px;
   `}
 `;
 
