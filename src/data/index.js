@@ -79,7 +79,7 @@ export const skills = [
     items: [
       "React (Next.js, Remix, Astro, React Native)",
       "Angular 12+ (RxJS, NgRx, Signals)",
-      "Vue.js e Nuxt.js",
+      "Vue.js, Nuxt.js e Quasar",
       "Microfrontends (Module Federation)",
       "SSR, SSG, ISR",
       "PWA, Ionic, Electron",
