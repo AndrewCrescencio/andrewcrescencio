@@ -1,29 +1,31 @@
 import { Section } from "@/components/layout/Section";
 import { Container } from "@/components/layout/Container";
-import { SubTitle, Text, Title } from "@/components/typography";
-import { Grid, Group, List, ListItem } from "./styles";
+import { Title, Text } from "@/components/typography";
+import { skills } from "@/data";
+import { SkillsGrid, SkillGroup, SkillCategory, SkillItems, SkillItem } from "./styles";
 
-export const Skills = ({ groups }) => {
+export const Skills = () => {
   return (
-    <Section black>
+    <Section black id="tecnologias">
       <Container>
-        <Title marginBottom={["64px", "128px"]} textAlign={["center"]}>
-          Habilidades Técnicas
+        <Title marginBottom={["16px"]} textAlign={["center"]}>
+          Tecnologias
         </Title>
-        <Grid>
-          {groups.map((group) => (
-            <Group key={group.name}>
-              <SubTitle marginBottom={["24px"]}>{group.name}</SubTitle>
-              <List>
+        <Text textAlign={["center"]} marginBottom={["48px", "64px"]} color="medium" maxWidth="640px" style={{ margin: "0 auto 48px" }}>
+          Stack principal que utilizo no dia a dia. A lista completa inclui mais ferramentas e frameworks.
+        </Text>
+        <SkillsGrid>
+          {skills.map((group) => (
+            <SkillGroup key={group.category}>
+              <SkillCategory>{group.category}</SkillCategory>
+              <SkillItems>
                 {group.items.map((item) => (
-                  <ListItem key={item}>
-                    <Text marginBottom={["8px"]}>{item}</Text>
-                  </ListItem>
+                  <SkillItem key={item}>{item}</SkillItem>
                 ))}
-              </List>
-            </Group>
+              </SkillItems>
+            </SkillGroup>
           ))}
-        </Grid>
+        </SkillsGrid>
       </Container>
     </Section>
   );

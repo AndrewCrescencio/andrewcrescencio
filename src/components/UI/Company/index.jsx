@@ -1,26 +1,49 @@
-import { Heading, SubHeading, SubTitle } from "@/components/typography";
+import Image from "next/image";
+import { Heading, SubHeading, Text } from "@/components/typography";
 import { Responsibilities } from "../Responsibilities";
-import { Info } from "./styles";
+import { Info, CompanyHeader, CompanyContext, CompanyHighlights, CompanyLogo } from "./styles";
 
 export const Company = ({
   name,
   role,
   time,
+  context,
+  highlights,
   responsibilities,
   companyImage,
 }) => {
   return (
     <Info>
       {companyImage && (
-        // eslint-disable-next-line @next/next/no-img-element
-        <img src={companyImage.url} alt={name + " logo"} />
+        <CompanyLogo>
+          <Image
+            src={companyImage.url}
+            alt={name + " logo"}
+            width={100}
+            height={100}
+          />
+        </CompanyLogo>
       )}
-      <div>
-        <SubTitle marginBottom={["16px"]}>{name}</SubTitle>
+      <CompanyHeader>
+        <SubHeading>{name}</SubHeading>
         <Heading marginBottom={["8px"]}>{role}</Heading>
         <SubHeading>{time}</SubHeading>
-        {responsibilities && <Responsibilities data={responsibilities} />}
-      </div>
+      </CompanyHeader>
+      {context && (
+        <CompanyContext>
+          <Text color="medium" marginBottom={["16px"]}>{context}</Text>
+        </CompanyContext>
+      )}
+      {highlights && highlights.length > 0 && (
+        <CompanyHighlights>
+          <Responsibilities data={highlights} />
+        </CompanyHighlights>
+      )}
+      {responsibilities && responsibilities.length > 0 && (
+        <CompanyHighlights>
+          <Responsibilities data={responsibilities} />
+        </CompanyHighlights>
+      )}
     </Info>
   );
 };

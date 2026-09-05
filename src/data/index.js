@@ -1,9 +1,16 @@
 export const profile = {
   name: "Andrew Crescencio",
   role: "Engenheiro de Software | Frontend | Full Stack",
-  tagline: "Solucionando problemas com o poder da tecnologia.",
+  tagline: "Desenvolvo sistemas web que resolvem problemas reais de negócio.",
+  subHeadline: "Mais de 5 anos desenvolvendo aplicações para fintechs, ERPs e plataformas SaaS, do frontend à infraestrutura.",
   summary:
-    "Engenheiro de Software com mais de 5 anos de experiência em aplicações web para fintechs, ERPs e plataformas SaaS. Sólida base em fundamentos de engenharia de software, forte capacidade de transitar entre stacks e adaptar soluções ao contexto do produto. Experiência em Design Systems, migrações de legado, arquitetura frontend e integração com ferramentas de IA no fluxo de desenvolvimento.",
+    "Engenheiro de Software com mais de 5 anos de experiência no desenvolvimento de aplicações web. Ao longo da minha carreira trabalhei com fintechs, ERPs e plataformas SaaS, atuando principalmente no frontend, mas também com backend, banco de dados, infraestrutura e CI/CD. Tenho experiência em projetos que envolvem desenvolvimento de novas funcionalidades, migração de sistemas legados, arquitetura frontend, Design Systems, integrações e otimização de aplicações. Meu foco é transformar problemas de negócio em soluções de software eficientes, sustentáveis e adequadas ao contexto do produto.",
+  contacts: {
+    whatsapp: "https://wa.me/+5511939475095/",
+    email: "mailto:andrew_workstation@hotmail.com",
+    linkedin: "https://www.linkedin.com/in/andrewcrescencio/",
+    github: "https://github.com/AndrewCrescencio",
+  },
 };
 
 export const companies = [
@@ -11,8 +18,9 @@ export const companies = [
     name: "Egis ERP",
     role: "Desenvolvedor Full Stack",
     time: "janeiro 2026 – Presente | Remoto",
-    responsibilities: [
-      "Migração da aplicação ERP Web de Vue 2 para Nuxt 4 (Vue 3) usando Codex OpenAI",
+    context: "Migração completa de ERP web legado para stack moderna.",
+    highlights: [
+      "Migração da aplicação ERP Web de Vue 2 para Nuxt 4 (Vue 3) usando OpenAI Codex",
       "Migração do backend legado em Delphi para API RESTful com Node.js, Express.js, TypeScript e TypeORM",
       "SQL Server: projetei, otimizei e mantive stored procedures e queries em ambientes de alta escala",
       "Docker: padronizei builds multi-stage em múltiplos projetos, reduzindo tamanho das imagens em 60%+ e deploy em ~45%",
@@ -23,7 +31,8 @@ export const companies = [
     name: "UNLKD",
     role: "Desenvolvedor Frontend",
     time: "dezembro 2024 – dezembro 2025 | Remoto",
-    responsibilities: [
+    context: "Desenvolvimento de aplicações web para fintech e banking.",
+    highlights: [
       "Desenvolvimento de aplicações web para fintech e banking com Nuxt.js (Vue.js) e TypeScript",
       "Interfaces de backoffice para gestão de usuários, perfis e produtos em serviços financeiros",
       "SSO corporativo integrado com Keycloak e AWS, APIs REST e serviços financeiros",
@@ -37,7 +46,8 @@ export const companies = [
     name: "UNO ERP",
     role: "Desenvolvedor Frontend",
     time: "outubro 2023 – novembro 2024 | Remoto",
-    responsibilities: [
+    context: "Modernização de ERP legado e evolução contínua da plataforma.",
+    highlights: [
       "Desenvolvimento e manutenção de features do sistema ERP web usando Vue.js, Nuxt.js e TypeScript",
       "Migração do sistema ERP web legado de Angular 12 para Vue 3",
       "Evolução da aplicação legada em Angular 12, incluindo correções, melhorias e suporte às funcionalidades existentes",
@@ -52,7 +62,8 @@ export const companies = [
     name: "Duotalk",
     role: "Desenvolvedor Frontend",
     time: "abril 2023 – setembro 2023 | Remoto",
-    responsibilities: [
+    context: "Plataforma omnichannel de atendimento e vendas em tempo real.",
+    highlights: [
       "Desenvolvimento frontend para plataforma omnichannel de atendimento e vendas utilizando Vue 3 e TypeScript",
       "Funcionalidades de comunicação em tempo real utilizando WebSocket",
       "Integração de APIs externas e sistemas CRM para automação de processos e fluxos conversacionais",
@@ -64,7 +75,8 @@ export const companies = [
     name: "Catskillet",
     role: "Desenvolvedor Frontend",
     time: "agosto 2021 – março 2023 | Remoto",
-    responsibilities: [
+    context: "Desenvolvimento multiplataforma web, WordPress e CMS headless.",
+    highlights: [
       "Aplicações web multiplataforma usando Vue.js, Nuxt.js e Angular",
       "Desenvolvimento e manutenção de plugins, temas e Gutenberg blocks para WordPress",
       "Integrações com Strapi CMS, incluindo customizações de schemas, plugins e middlewares",
@@ -73,81 +85,202 @@ export const companies = [
   },
 ];
 
-export const skills = [
+export const projects = [
   {
-    name: "Frontend",
-    items: [
-      "React (Next.js, Remix, Astro, React Native)",
-      "Angular 12+ (RxJS, NgRx, Signals)",
-      "Vue.js, Nuxt.js e Quasar",
-      "Microfrontends (Module Federation)",
-      "SSR, SSG, ISR",
-      "PWA, Ionic, Electron",
+    id: "multiplatform-web-apps",
+    slug: "aplicacoes-multiplataforma",
+    title: "Aplicações Web Multiplataforma",
+    shortDescription: "Desenvolvimento e manutenção de aplicações web usando Vue.js, Nuxt.js e Angular para diferentes clientes e necessidades de negócio.",
+    description: "Desenvolvimento de aplicações web multiplataforma atendendo diferentes clientes. Utilização de Vue.js, Nuxt.js e Angular para criar interfaces ricas, performáticas e escaláveis. Trabalho em equipe com code reviews e práticas de qualidade de código.",
+    type: "Web Apps / Frontend",
+    role: "Desenvolvedor Frontend",
+    company: "Catskillet",
+    period: "2021 – 2023",
+    technologies: ["Vue.js", "Nuxt.js", "Angular", "TypeScript", "JavaScript"],
+    challenge: "Entregar aplicações web de qualidade para diferentes clientes com stacks variadas (Vue, Nuxt, Angular), mantendo consistência de código, performance e boas práticas.",
+    solution: "Desenvolvimento seguindo padrões de cada framework; code reviews rigorosos; componentização reutilizável; testes automatizados; integração contínua.",
+    results: [
+      "Entrega de múltiplas aplicações web para diferentes clientes",
+      "Codebase consistente e manutenível across stacks",
+      "Performance otimizada nas aplicações entregues",
     ],
+    metrics: [],
+    image: "/images/imep-preview.webp",
+    gallery: [],
+    projectLink: null,
+    repositoryLink: null,
+    confidential: false,
+    featured: true,
   },
   {
-    name: "Estilização & UI",
-    items: [
-      "Tailwind CSS, SASS/SCSS, CSS-in-JS",
-      "Chakra UI, Material UI, shadcn/ui, Radix UI",
-      "Ant Design, PrimeVue, Vuetify",
-      "Design Systems, Storybook, Figma",
-      "Acessibilidade (WCAG), i18n",
+    id: "wordpress-ecosystem",
+    slug: "ecossistema-wordpress",
+    title: "Ecossistema WordPress: Plugins, Temas e Gutenberg Blocks",
+    shortDescription: "Desenvolvimento e manutenção de plugins customizados, temas e blocos Gutenberg para WordPress, estendendo a plataforma para necessidades específicas de clientes.",
+    description: "Criação de soluções personalizadas no ecossistema WordPress: plugins com funcionalidades específicas, temas responsivos e blocos Gutenberg customizados para editores de conteúdo. Integração com APIs externas e customização de fluxos editoriais.",
+    type: "WordPress / CMS",
+    role: "Desenvolvedor Frontend",
+    company: "Catskillet",
+    period: "2021 – 2023",
+    technologies: ["WordPress", "PHP", "JavaScript", "Gutenberg", "React", "ACF", "WooCommerce"],
+    challenge: "Estender o WordPress além do padrão com plugins, temas e blocos Gutenberg customizados, mantendo compatibilidade, performance e experiência do editor.",
+    solution: "Desenvolvimento seguindo WordPress Coding Standards; blocos Gutenberg com React; temas child e customizados; plugins modulares; integração com APIs REST e GraphQL.",
+    results: [
+      "Plugins customizados para necessidades específicas de negócio",
+      "Temas responsivos e performáticos",
+      "Blocos Gutenberg melhorando experiência editorial",
+      "Integrações com serviços externos via APIs",
     ],
+    metrics: [],
+    image: "/images/polenghi-preview.png",
+    gallery: [],
+    projectLink: null,
+    repositoryLink: null,
+    confidential: false,
+    featured: true,
   },
   {
-    name: "Testes & Qualidade",
-    items: [
-      "Vitest, Jest, Testing Library",
-      "Cypress, Playwright",
-      "ESLint, Prettier",
-      "SonarQube, CodeRabbit",
-      "Core Web Vitals, Lighthouse",
+    id: "strapi-cms-integrations",
+    slug: "integracoes-strapi-cms",
+    title: "Strapi CMS Headless para Polenghi",
+    shortDescription: "Implementação e customização de Strapi CMS headless para o site da Polenghi: schemas, plugins, middlewares e APIs para alimentar frontend desacoplado.",
+    description: "Configuração e extensão do Strapi CMS como headless CMS para o site da Polenghi: modelagem de content-types (schemas), desenvolvimento de plugins customizados, middlewares para lógica de negócio, customização de controllers e services, integração com frontend Vue/Nuxt.",
+    type: "Headless CMS / Backend Integration",
+    role: "Desenvolvedor Frontend",
+    company: "Catskillet",
+    period: "2021 – 2023",
+    technologies: ["Strapi CMS", "Node.js", "JavaScript", "REST API", "GraphQL", "PostgreSQL", "MongoDB"],
+    challenge: "Estruturar Strapi CMS como backend headless para o site da Polenghi, com schemas flexíveis para conteúdo institucional, validações, permissões e lógica de negócio customizada.",
+    solution: "Modelagem de content-types e componentes; plugins customizados para funcionalidades específicas; middlewares para autenticação e validação; customização de controllers/services; documentação de APIs para consumo pelo frontend.",
+    results: [
+      "CMS headless configurado e customizado para o site Polenghi",
+      "Schemas flexíveis para conteúdo institucional e produtos",
+      "Plugins e middlewares reutilizáveis",
+      "APIs documentadas e performáticas para frontend",
     ],
+    metrics: [],
+    image: "/images/polenghi-preview.png",
+    gallery: [],
+    projectLink: null,
+    repositoryLink: null,
+    confidential: false,
+    featured: true,
   },
   {
-    name: "Backend & Dados",
-    items: [
-      "Node.js, Express.js, Nest.js",
-      "REST, GraphQL, gRPC",
-      "SQL Server, PostgreSQL, MySQL, MongoDB",
-      "Prisma, TypeORM, Supabase",
+    id: "web-platforms-maintenance",
+    slug: "manutencao-evolucao-plataformas",
+    title: "Manutenção e Evolução de Plataformas Web",
+    shortDescription: "Sustentação contínua de aplicações web existentes: correções, melhorias de performance, novas funcionalidades e atualizações de dependências.",
+    description: "Manutenção evolutiva e corretiva de plataformas web em produção. Correção de bugs críticos, otimização de performance (Core Web Vitals), implementação de novas features solicitadas pelos clientes, atualizações de dependências e migrações de versões de frameworks.",
+    type: "Manutenção / Evolução / Frontend",
+    role: "Desenvolvedor Frontend",
+    company: "Catskillet",
+    period: "2021 – 2023",
+    technologies: ["Vue.js", "Nuxt.js", "Angular", "TypeScript", "Webpack", "Vite", "Cypress", "Jest"],
+    challenge: "Manter plataformas legadas e atuais funcionando em produção enquanto evoluem: correções urgentes, melhorias contínuas, atualizações de stack sem quebrar funcionalidades existentes.",
+    solution: "Monitoramento de erros; testes de regressão; atualizações incrementais de dependências; refatoração pontual; documentação técnica; deploy seguro com rollback.",
+    results: [
+      "Plataformas estáveis e performáticas em produção",
+      "Bugs críticos resolvidos com SLA adequado",
+      "Dependências atualizadas regularmente",
+      "Novas features entregues continuamente",
     ],
-  },
-  {
-    name: "DevOps & Cloud",
-    items: [
-      "Docker, Docker Compose",
-      "GitHub Actions, GitLab CI",
-      "AWS, GCP, Azure",
-      "Nginx, Vercel, Cloudflare",
-    ],
-  },
-  {
-    name: "Arquitetura & Métodos",
-    items: [
-      "Clean Architecture, DDD, SOLID",
-      "Design Patterns, Dependency Injection",
-      "TDD, BDD",
-      "Scrum, Kanban",
-      "Auth: JWT, OAuth 2.0, SSO (Keycloak, Auth0)",
-    ],
-  },
-  {
-    name: "Ferramentas & IA",
-    items: [
-      "Git, GitHub, GitLab, Jira, ClickUp",
-      "Postman, Insomnia",
-      "npm, pnpm, yarn",
-      "Cursor IDE, GitHub Copilot, Codex, Claude Code",
-      "Vite, Webpack, esbuild, Rollup, SWC",
-    ],
+    metrics: [],
+    image: "/images/xlab-preview.webp",
+    gallery: [],
+    projectLink: null,
+    repositoryLink: null,
+    confidential: false,
+    featured: true,
   },
 ];
 
-export const projects = [];
+export const services = [
+  {
+    id: "web-systems",
+    title: "Sistemas Web",
+    description: "Desenvolvimento de aplicações web completas, do frontend ao backend, com foco em usabilidade, performance e manutenibilidade.",
+    examples: ["Dashboards administrativos", "Portais de clientes", "Sistemas internos", "Ferramentas operacionais"],
+  },
+  {
+    id: "saas",
+    title: "SaaS",
+    description: "Construção de produtos SaaS escaláveis: multi-tenancy, billing, autenticação, onboarding e arquitetura preparada para crescimento.",
+    examples: ["Plataformas B2B", "Ferramentas de produtividade", "Sistemas de gestão", "Marketplaces"],
+  },
+  {
+    id: "integrations-apis",
+    title: "Integrações e APIs",
+    description: "Integração entre sistemas, APIs REST/GraphQL, webhooks, middleware e sincronização de dados entre plataformas distintas.",
+    examples: ["Integração ERP ↔ CRM", "Webhooks e eventos", "APIs públicas/privadas", "Middleware de sincronização"],
+  },
+  {
+    id: "legacy-modernization",
+    title: "Modernização de Sistemas",
+    description: "Migração de tecnologias legadas, refatoração de código, redução de dívida técnica e preparação para evolução contínua.",
+    examples: ["Migração Angular → Vue/React", "Backend legado → Node.js/TypeScript", "Monolito → Serviços", "Docker/CI/CD"],
+  },
+  {
+    id: "frontend-development",
+    title: "Desenvolvimento Frontend",
+    description: "Interfaces modernas, acessíveis e performáticas com React/Next.js, Vue/Nuxt, Design Systems, Storybook e testes.",
+    examples: ["Design Systems", "Componentes reutilizáveis", "SSR/SSG/ISR", "Acessibilidade (WCAG)"],
+  },
+  {
+    id: "maintenance-evolution",
+    title: "Manutenção e Evolução",
+    description: "Sustentação de aplicações existentes: correções, melhorias de performance, novas features, atualizações de dependências e segurança.",
+    examples: ["Correção de bugs críticos", "Otimização de performance", "Novas funcionalidades", "Atualizações de stack"],
+  },
+];
+
+export const metrics = [
+  { label: "Anos de experiência", value: "5+" },
+  { label: "Projetos entregues", value: "10+", context: "Carreira completa" },
+  { label: "Redução imagens Docker", value: "60%+", context: "Egis ERP" },
+  { label: "Melhoria no deploy", value: "~45%", context: "Egis ERP" },
+  { label: "Cobertura de testes", value: "80%+", context: "UNO ERP" },
+  { label: "Redução Docker", value: "1 GB → ~220 MB", context: "UNLKD" },
+  { label: "Melhoria deploy", value: "~40%", context: "UNLKD" },
+];
+
+export const skills = [
+  {
+    category: "Frontend",
+    items: ["React · Next.js", "Vue · Nuxt", "Angular", "TypeScript"],
+  },
+  {
+    category: "Backend",
+    items: ["Node.js · Express", "Nest.js", "REST · GraphQL", "TypeScript"],
+  },
+  {
+    category: "Dados",
+    items: ["PostgreSQL", "SQL Server", "MySQL", "MongoDB"],
+  },
+  {
+    category: "DevOps & Cloud",
+    items: ["Docker", "GitHub Actions", "AWS", "Vercel · Cloudflare"],
+  },
+  {
+    category: "Qualidade",
+    items: ["Vitest · Jest", "Cypress · Playwright", "ESLint · Prettier", "Lighthouse"],
+  },
+  {
+    category: "Arquitetura & Métodos",
+    items: ["Clean Architecture · DDD", "SOLID · Design Patterns", "TDD · BDD", "Scrum · Kanban"],
+  },
+];
 
 export const languages = [
   { name: "Português", level: "Nativo" },
   { name: "Inglês", level: "Intermediário Superior (B2)", detail: "Leitura técnica, redação e comunicação profissional" },
 ];
+
+export const siteConfig = {
+  name: "Andrew Crescencio",
+  title: "Engenheiro de Software | Frontend | Full Stack",
+  description: "Engenheiro de Software com 5+ anos de experiência em aplicações web para fintechs, ERPs e plataformas SaaS. Desenvolvimento de sistemas, SaaS, integrações, modernização de legados e desenvolvimento frontend.",
+  url: "https://www.andrewcrescencio.com",
+  ogImage: "/api/og",
+  locale: "pt-BR",
+};

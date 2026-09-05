@@ -1,0 +1,16 @@
+{
+  "name": "Andrew Crescencio — Engenheiro de Software",
+  "short_name": "Andrew Crescencio",
+  "description": "Engenheiro de Software com 5+ anos de experiência em aplicações web para fintechs, ERPs e plataformas SaaS.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#121212",
+  "theme_color": "#BB86FC",
+  "icons": [
+    {
+      "src": "/images/andrew-crescencio.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
