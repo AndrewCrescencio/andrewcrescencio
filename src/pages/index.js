@@ -14,7 +14,7 @@ export default function Index() {
   return (
     <>
       <Head>
-        <title>{profile.name} — {profile.role}</title>
+        <title>Andrew Crescencio - Engenheiro de Software</title>
         <meta name="description" content={profile.summary} />
         <link rel="canonical" href={siteConfig.url} />
         <meta property="og:type" content="website" />
