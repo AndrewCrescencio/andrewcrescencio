@@ -3,7 +3,7 @@ import { Section } from "@/components/layout/Section";
 import { Container } from "@/components/layout/Container";
 import { Title, Text } from "@/components/typography";
 import { profile } from "@/data";
-import { AboutContent, AboutImage, AboutText } from "./styles";
+import { Grid, Group } from "@/components/sections/Skills/styles";
 
 export const About = () => {
   return (
@@ -12,25 +12,17 @@ export const About = () => {
         <Title marginBottom={["32px", "48px"]} textAlign={["center"]}>
           Sobre mim
         </Title>
-        <AboutContent>
-          <AboutImage>
-            {/* <Image
-              src="/images/andrew-crescencio.jpg"
-              alt="Andrew Crescencio"
-              width={400}
-              height={500}
-              fill
-              sizes="(max-width: 768px) 100vw, 400px"
-            /> */}
+        <Grid>
+          <Group>
             <Image
               src="/images/andrew-crescencio.jpg"
               alt="Andrew Crescencio"
               width={400}
               height={500}
-              sizes="(max-width: 768px) 100vw, 400px"
+              style={{ borderRadius: "12px", width: "100%", height: "auto", maxWidth: "400px" }}
             />
-          </AboutImage>
-          <AboutText>
+          </Group>
+          <Group>
             <Text marginBottom={["24px"]}>
               {profile.summary}
             </Text>
@@ -48,8 +40,8 @@ export const About = () => {
               Meu foco é transformar problemas de negócio em soluções de software eficientes,
               sustentáveis e adequadas ao contexto do produto.
             </Text>
-          </AboutText>
-        </AboutContent>
+          </Group>
+        </Grid>
       </Container>
     </Section>
   );

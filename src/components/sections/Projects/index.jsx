@@ -1,20 +1,16 @@
 import { Section } from "@/components/layout/Section";
-import { Title } from "@/components/typography";
+import { SubTitle } from "@/components/typography";
 import { ProjectCard } from "../../UI/ProjectCard";
 import { ProjectsContainer } from "./styles";
 
 export const Projects = ({ data }) => {
-  const featuredProjects = data?.filter((p) => p.featured) || [];
-
   return (
-    <Section id="projetos">
-      <Title marginBottom={["48px", "64px"]} textAlign={["center"]}>
-        Projetos em destaque
-      </Title>
+    <Section>
+      <SubTitle textAlign={["center"]} marginBottom={['64px']}>Alguns dos projetos que participei</SubTitle>
       <ProjectsContainer>
-        {featuredProjects.map((project) => (
-          <ProjectCard key={project.id} {...project} />
-        ))}
+        {data.map((project, i) => {
+          return <ProjectCard {...project} key={i} />;
+        })}
       </ProjectsContainer>
     </Section>
   );

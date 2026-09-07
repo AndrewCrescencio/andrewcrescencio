@@ -3,30 +3,29 @@ import { IconChevronDown } from "@/components/icons/ChevronDown";
 import { Container } from "@/components/layout/Container";
 import { SubTitle, Text, Heading } from "@/components/typography";
 import { profile } from "@/data";
-import { Banner, Wrapper, Content, ScrollIndicator } from "./styles";
+import { Banner, Wrapper } from "./styles";
 
 export const Hero = () => {
   return (
-    <Banner id="home">
+    <Banner>
       <Container>
         <Wrapper>
-          <Content>
-            <Heading textAlign={["center", "left"]} marginBottom={["16px"]}>
+          <div>
+            <SubTitle textAlign={["center", "left"]}>
               {profile.tagline}
-            </Heading>
-            <SubTitle textAlign={["center", "left"]} marginBottom={["24px"]}>
-              {profile.subHeadline}
             </SubTitle>
-            <Text textAlign={["center", "left"]} marginTop={["32px"]} color="medium">
+            <Heading textAlign={["center", "left"]} marginBottom={["24px"]}>
+              {profile.subHeadline}
+            </Heading>
+            <Text marginBottom={["24px"]}>{profile.summary}</Text>
+            <Text textAlign={["center", "left"]} color="medium">
               {profile.role}
             </Text>
-          </Content>
-          <Logo width={280} height={428} />
+          </div>
+          <Logo />
         </Wrapper>
       </Container>
-      <ScrollIndicator>
-        <IconChevronDown />
-      </ScrollIndicator>
+      <IconChevronDown />
     </Banner>
   );
 };
