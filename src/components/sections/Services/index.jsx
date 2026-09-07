@@ -15,13 +15,13 @@ export const Services = () => {
           Problemas reais de negócio exigem soluções técnicas bem fundamentadas. Estes são os principais tipos de demanda em que atuo:
         </Text>
         <Grid>
-          {services.map((service) => (
-            <Group key={service.id}>
+          {services.map((service, index) => (
+            <Group key={`service-${index}`}>
               <Heading marginBottom={["12px"]}>{service.title}</Heading>
               <Text marginBottom={["20px"]} color="medium">{service.description}</Text>
               <List>
                 {service.examples.map((example, i) => (
-                  <ListItem key={i}>
+                  <ListItem key={`service-example-${index}-${i}`}>
                     <Text marginBottom={["8px"]}>{example}</Text>
                   </ListItem>
                 ))}

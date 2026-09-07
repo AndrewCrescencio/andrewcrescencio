@@ -15,8 +15,8 @@ export const Metrics = () => {
           Números reais de projetos entregues. Não são estimativas — são resultados de produção.
         </Text>
         <Grid>
-          {metrics.map((metric) => (
-            <Group key={metric.label}>
+          {metrics.map((metric, index) => (
+            <Group key={`metric-${index}`}>
               <Heading style={{ fontSize: "32px", color: "var(--color-primary)", marginBottom: "8px" }}>{metric.value}</Heading>
               <Text style={{ fontWeight: 500 }}>{metric.label}</Text>
               {metric.context && <Text color="medium" style={{ fontSize: "12px", textTransform: "uppercase" }}>{metric.context}</Text>}

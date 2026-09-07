@@ -11,12 +11,12 @@ export const Skills = ({ groups }) => {
           Habilidades Técnicas
         </Title>
         <Grid>
-          {groups.map((group) => (
-            <Group key={group.name}>
+          {groups.map((group, groupIndex) => (
+            <Group key={`skill-group-${groupIndex}`}>
               <SubTitle marginBottom={["24px"]}>{group.name}</SubTitle>
               <List>
-                {group.items.map((item) => (
-                  <ListItem key={item}>
+                {group.items.map((item, itemIndex) => (
+                  <ListItem key={`skill-item-${groupIndex}-${itemIndex}`}>
                     <Text marginBottom={["8px"]}>{item}</Text>
                   </ListItem>
                 ))}

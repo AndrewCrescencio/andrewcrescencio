@@ -22,7 +22,7 @@ export default class MyDocument extends Document {
     }
   }
 
-  return() {
+  render() {
     return (
       <Html lang="pt-BR">
         <Head>
