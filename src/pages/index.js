@@ -11,21 +11,22 @@ import { Contact } from "@/components/sections/Contact";
 import { companies, projects, skills, profile, siteConfig } from "@/data";
 
 export default function Index() {
+  const pageTitle = profile.name + " \u2014 " + profile.role;
   return (
     <>
       <Head>
-        <title>Andrew Crescencio - Engenheiro de Software</title>
+        <title>{pageTitle}</title>
         <meta name="description" content={profile.summary} />
         <link rel="canonical" href={siteConfig.url} />
         <meta property="og:type" content="website" />
         <meta property="og:url" content={siteConfig.url} />
-        <meta property="og:title" content={`${profile.name} — ${profile.role}`} />
+        <meta property="og:title" content={pageTitle} />
         <meta property="og:description" content={profile.summary} />
         <meta property="og:image" content={siteConfig.ogImage} />
         <meta property="og:site_name" content={profile.name} />
         <meta property="og:locale" content={siteConfig.locale} />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content={`${profile.name} — ${profile.role}`} />
+        <meta name="twitter:title" content={pageTitle} />
         <meta name="twitter:description" content={profile.summary} />
         <meta name="twitter:image" content={siteConfig.ogImage} />
         <meta name="author" content={profile.name} />
