@@ -23,7 +23,7 @@ export const About = () => {
             />
           </Group>
           <Group>
-            <Text marginBottom={["24px"]}>
+            <Text marginBottom={["24px"]} w>
               {profile.summary}
             </Text>
             <Text marginBottom={["24px"]}>
