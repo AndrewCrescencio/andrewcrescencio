@@ -1,4 +1,3 @@
-import Link from "next/link";
 import Image from "next/image";
 import { Heading, SubHeading, Text } from "@/components/typography";
 import { Card, CardButton, CardHeader, CardImage } from "./styles";
@@ -12,8 +11,10 @@ export const ProjectCard = ({
   metrics = [],
   image,
   confidential = false,
+  projectLink,
 }) => {
   const mainMetric = metrics[0];
+  const externalLink = projectLink && projectLink.startsWith("http");
 
   return (
     <Card>
@@ -29,7 +30,11 @@ export const ProjectCard = ({
           />
         )}
       </CardImage>
-      <CardButton href={`/projetos/${slug}`} target="_blank" rel="noreferrer">
+      <CardButton
+        href={externalLink ? projectLink : `/projetos/${slug}`}
+        target={externalLink ? "_blank" : undefined}
+        rel={externalLink ? "noopener noreferrer" : undefined}
+      >
         Ver case
       </CardButton>
     </Card>
