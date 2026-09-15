@@ -4,13 +4,13 @@ import { createMediaQueries } from "@/styles/utils/create-media-queries";
 export const Title = styled.h1(
   ({theme}) => ({
     fontWeight: 400,
-    fontSize: 36,
+    fontSize: 28,
     color: theme.colors.onSurfaceHighEmphasis,
     "@media (min-width: 768px)": {
-      fontSize: 50,
+      fontSize: 32,
     },
     "@media (min-width: 1440px)": {
-      fontSize: 60,
+      fontSize: 40,
     },
   }),
   ({ marginBottom, textAlign }) => ({
@@ -30,13 +30,14 @@ export const Title = styled.h1(
 export const SubTitle = styled.h2(
   ({theme}) => ({
     fontWeight: 500,
-    fontSize: "26px",
+    fontSize: "20px",
+    width: "100%",
     color: theme.colors.onSurfaceHighEmphasis,
     "@media (min-width: 768px)": {
-      fontSize: "36px",
+      fontSize: "20px",
     },
     "@media (min-width: 1440px)": {
-      fontSize: "40px",
+      fontSize: "20px",
     },
   }),
   ({ marginBottom, textAlign }) => ({
@@ -57,6 +58,7 @@ export const Heading = styled.h3(
   ({theme}) => ({
     fontWeight: 400,
     fontSize: "18px",
+    maxWidth: "680px",
     color: theme.colors.onSurfaceHighEmphasis,
     "@media (min-width: 768px)": {
       fontSize: "24px",
