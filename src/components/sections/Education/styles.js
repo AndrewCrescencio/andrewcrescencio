@@ -5,7 +5,7 @@ export const Wrapper = styled.div`
   display: flex;
   flex-direction: column;
   gap: 32px;
-  max-width: 600px;
+  max-width: 700px;
   margin: 0 auto;
   ${media.laptop`
     margin: 0;
