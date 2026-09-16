@@ -76,7 +76,7 @@ export default function Index() {
       <Services />
       <Metrics />
       <Skills groups={skills} />
-      <About />
+      {/* <About /> */}
       <Contact />
     </>
   );
