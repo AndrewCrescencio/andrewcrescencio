@@ -56,38 +56,31 @@ const Button = styled.a`
 export const Contact = () => {
   return (
     <Section black id="contato">
-      <Container>
-        <Title marginBottom={["16px"]} textAlign={["center"]}>
-          Tem um projeto em mente?
-        </Title>
-        <Text textAlign={["center"]} marginBottom={["32px", "48px"]} color="medium" maxWidth="580px" style={{ margin: "0 auto 32px" }}>
-          Conte o que você precisa desenvolver, melhorar ou integrar.
-        </Text>
-        <div style={{ display: "flex", flexWrap: "wrap", gap: "16px", justifyContent: "center" }}>
-          <Button
-            href={profile.contacts.whatsapp}
-            target="_blank"
-            rel="noopener noreferrer"
-            $primary
-          >
-            WhatsApp
-          </Button>
-          <Button
-            href={profile.contacts.email}
-            $secondary
-          >
-            Email
-          </Button>
-          <Button
-            href={profile.contacts.linkedin}
-            target="_blank"
-            rel="noopener noreferrer"
-            $secondary
-          >
-            LinkedIn
-          </Button>
-        </div>
-      </Container>
+      <Title marginBottom={["16px"]} textAlign={["center"]}>
+        Tem um projeto em mente?
+      </Title>
+      <Text style={{margin: '0 auto 24px',textAlign: 'center'}}>Conte o que você precisa desenvolver, melhorar ou integrar.</Text>
+      <div style={{margin: '0 auto',textAlign: 'center', gap: '12px', display: 'flex', justifyContent: 'center'}}>
+        <Button
+          href={profile.contacts.whatsapp}
+          target="_blank"
+          rel="noopener noreferrer"
+          $primary
+        >
+          WhatsApp
+        </Button>
+        <Button href={profile.contacts.email} $secondary>
+          Email
+        </Button>
+        <Button
+          href={profile.contacts.linkedin}
+          target="_blank"
+          rel="noopener noreferrer"
+          $secondary
+        >
+          LinkedIn
+        </Button>
+      </div>
     </Section>
   );
 };
