@@ -4,7 +4,7 @@ import { createMediaQueries } from "@/styles/utils/create-media-queries";
 export const Title = styled.h1(
   ({theme}) => ({
     fontWeight: 400,
-    fontSize: 28,
+    fontSize: 24,
     color: theme.colors.onSurfaceHighEmphasis,
     "@media (min-width: 768px)": {
       fontSize: 32,
@@ -102,7 +102,7 @@ export const SubHeading = styled.h4(
 export const Text = styled.p(
   ({theme}) => ({
     width: "100%",
-    maxWidth: "580px",
+    maxWidth: "700px",
     fontSize: "14px",
     lineHeight: "20px",
     letterSpacing: "0.25px",
