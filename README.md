@@ -1,25 +1,23 @@
 # Andrew Crescencio
 
-Currently working full stack with **Vue.js · Node.js · Express.js · SQL Server**.
-
----
-
 ## Tech stack
+Currently working full stack with...
 
 **Frontend**
+
 React.js · Next.js · Vue.js · Nuxt.js · Angular · TypeScript · JavaScript
 
 **Mobile**
+
 React Native
 
-**Backend & APIs**
-Node.js · Express.js · REST API · GraphQL
+**Backend**
+
+Node.js · Express.js · PHP · Laravel · Python · Flask · Django · FastApi
 
 **Database**
-SQL Server · MySQL · PostgreSQL · Supabase
 
-**Tooling & Infrastructure**
-Docker · CI/CD · Storybook · Git · Vite
+SQL Server · MySQL · PostgreSQL · Supabase
 
 ---
 
