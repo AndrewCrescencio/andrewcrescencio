@@ -6,9 +6,8 @@ import { Hero } from "@/components/sections/Hero";
 import { Projects } from "@/components/sections/Projects";
 import { Services } from "@/components/sections/Services";
 import { Metrics } from "@/components/sections/Metrics";
-import { About } from "@/components/sections/About";
-import { Contact } from "@/components/sections/Contact";
-import { companies, projects, skills, profile, siteConfig } from "@/data";
+import { Process } from "@/components/sections/Process";
+import { companies, skills, profile, siteConfig } from "@/data";
 
 export default function Index() {
   const pageTitle = profile.name + " \u2014 " + profile.role;
@@ -71,13 +70,14 @@ export default function Index() {
         />
       </Head>
       <Hero />
-      <Experience companies={companies} projects={projects} />
-      <Projects data={projects} />
+      <Experience companies={companies} />
+      <Projects />
       <Services />
       <Metrics />
+      <Process />
       <Skills groups={skills} />
       {/* <About /> */}
-      <Contact />
+      {/* <Contact /> */}
     </>
   );
 }

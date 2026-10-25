@@ -1,0 +1,9 @@
+export { IconChevronDown } from "./ChevronDown";
+export { IconEnvelopeAt } from "./EnvelopeAt";
+export { IconGithub } from "./Github";
+export { IconLinkedin } from "./Linkedin";
+export { IconWhatsapp } from "./Whatsapp";
+export { IconSearch } from "./Search";
+export { IconFileText } from "./FileText";
+export { IconGitBranch } from "./GitBranch";
+export { IconCheckCircle } from "./CheckCircle";

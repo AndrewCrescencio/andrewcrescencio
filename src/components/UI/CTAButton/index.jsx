@@ -3,16 +3,16 @@ import { Button } from "./styles";
 export const CTAButton = ({
   children,
   href,
-  primary = false,
-  secondary = false,
+  variant = "primary",
+  size = "md",
   ...props
 }) => {
   return (
     <Button
       as="a"
       href={href}
-      $primary={primary}
-      $secondary={secondary}
+      $variant={variant}
+      $size={size}
       {...props}
     >
       {children}
