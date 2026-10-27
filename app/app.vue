@@ -1,6 +1,6 @@
 <template>
   <main>
-    <h1>Andrew Crescencioe</h1>
+    <h1>Andrew Crescencio</h1>
   </main>
 </template>
 <style>
