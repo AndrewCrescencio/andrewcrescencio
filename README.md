@@ -1,27 +1,75 @@
-# Andrew Crescencio
+# Nuxt Minimal Starter
 
-## Tech stack
-Currently working full stack with...
+Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
-**Frontend**
+## Setup
 
-React.js · Next.js · Vue.js · Nuxt.js · Angular · TypeScript · JavaScript
+Make sure to install dependencies:
 
-**Mobile**
+```bash
+# npm
+npm install
 
-React Native
+# pnpm
+pnpm install
 
-**Backend**
+# yarn
+yarn install
 
-Node.js · Express.js · PHP · Laravel · Python · Flask · Django · FastApi
+# bun
+bun install
+```
 
-**Database**
+## Development Server
 
-SQL Server · MySQL · PostgreSQL · Supabase
+Start the development server on `http://localhost:3000`:
 
----
+```bash
+# npm
+npm run dev
 
-## Connect
+# pnpm
+pnpm dev
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-andrewcrescencio-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/andrew-crescencio)
-[![Email](https://img.shields.io/badge/Email-andrew__workstation%40hotmail.com-0078D4?style=flat&logo=microsoft-outlook&logoColor=white)](mailto:andrew_workstation@hotmail.com)
+# yarn
+yarn dev
+
+# bun
+bun run dev
+```
+
+## Production
+
+Build the application for production:
+
+```bash
+# npm
+npm run build
+
+# pnpm
+pnpm build
+
+# yarn
+yarn build
+
+# bun
+bun run build
+```
+
+Locally preview production build:
+
+```bash
+# npm
+npm run preview
+
+# pnpm
+pnpm preview
+
+# yarn
+yarn preview
+
+# bun
+bun run preview
+```
+
+Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
