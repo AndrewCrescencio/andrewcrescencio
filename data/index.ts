@@ -1,0 +1,630 @@
+// =============================================================================
+// Types
+// =============================================================================
+
+export interface Contacts {
+  whatsapp: string;
+  email: string;
+  linkedin: string;
+  github: string;
+}
+
+export interface Profile {
+  name: string;
+  role: string;
+  tagline: string;
+  subHeadline: string;
+  summary: string;
+  contacts: Contacts;
+}
+
+export interface Company {
+  name: string;
+  role: string;
+  time: string;
+  context: string;
+  highlights: string[];
+}
+
+export interface Metric {
+  label: string;
+  value: string;
+  context?: string;
+}
+
+export interface Project {
+  id: string;
+  slug: string;
+  title: string;
+  shortDescription: string;
+  description: string;
+  type: string;
+  role: string;
+  company: string;
+  period: string;
+  technologies: string[];
+  challenge: string;
+  solution: string;
+  results: string[];
+  metrics: Metric[];
+  image: string;
+  gallery: string[];
+  projectLink: string | null;
+  repositoryLink: string | null;
+  confidential: boolean;
+  featured: boolean;
+}
+
+export interface Service {
+  id: string;
+  title: string;
+  description: string;
+  examples: string[];
+}
+
+export interface SkillGroup {
+  category: string;
+  items: string[];
+}
+
+export interface Language {
+  name: string;
+  level: string;
+  detail?: string;
+}
+
+export interface FeaturedProjectMetric {
+  label: string;
+  value: string;
+}
+
+export interface FeaturedProject {
+  id: string;
+  slug: string;
+  title: string;
+  company: string;
+  period: string;
+  role: string;
+  problem: string;
+  action: string;
+  results: string[];
+  metrics: FeaturedProjectMetric[];
+  technologies: string[];
+  challenge: string;
+  solution: string;
+  image: string;
+  projectLink: string;
+  featured: boolean;
+  category: string;
+}
+
+export interface ProcessStep {
+  step: string;
+  title: string;
+  description: string;
+  icon: string;
+}
+
+export interface SiteConfig {
+  name: string;
+  title: string;
+  description: string;
+  url: string;
+  ogImage: string;
+  locale: string;
+}
+
+// =============================================================================
+// Data
+// =============================================================================
+
+export const profile: Profile = {
+  name: "Andrew Crescencio",
+  role: "Engenheiro de Software | Frontend | Full Stack",
+  tagline: "Desenvolvo sistemas web que resolvem problemas reais de negócio.",
+  subHeadline:
+    "Mais de 5 anos desenvolvendo aplicações para fintechs, ERPs e plataformas SaaS, do frontend à infraestrutura.",
+  summary:
+    "Engenheiro de Software com mais de 5 anos de experiência no desenvolvimento de aplicações web. Ao longo da minha carreira trabalhei com fintechs, ERPs e plataformas SaaS, atuando principalmente no frontend, mas também com backend, banco de dados, infraestrutura e CI/CD. Tenho experiência em projetos que envolvem desenvolvimento de novas funcionalidades, migração de sistemas legados, arquitetura frontend, Design Systems, integrações e otimização de aplicações. Meu foco é transformar problemas de negócio em soluções de software eficientes, sustentáveis e adequadas ao contexto do produto.",
+  contacts: {
+    whatsapp: "https://wa.me/+5511939475095/",
+    email: "mailto:andrew_workstation@hotmail.com",
+    linkedin: "https://www.linkedin.com/in/andrewcrescencio/",
+    github: "https://github.com/AndrewCrescencio",
+  },
+};
+
+export const companies: Company[] = [
+  {
+    name: "Egis ERP",
+    role: "Desenvolvedor Full Stack",
+    time: "janeiro 2026 – Presente | Remoto",
+    context: "Migração completa de ERP web legado para stack moderna.",
+    highlights: [
+      "Migração da aplicação ERP Web de Vue 2 para Nuxt 4 (Vue 3) usando OpenAI Codex",
+      "Migração do backend legado em Delphi para API RESTful com Node.js, Express.js, TypeScript e TypeORM",
+      "SQL Server: projetei, otimizei e mantive stored procedures e queries em ambientes de alta escala",
+      "Docker: padronizei builds multi-stage em múltiplos projetos, reduzindo tamanho das imagens em 60%+ e deploy em ~45%",
+      "CI/CD: implementei e mantive pipelines com GitHub Actions para automação de testes, build e deploy",
+    ],
+  },
+  {
+    name: "UNLKD",
+    role: "Desenvolvedor Frontend",
+    time: "dezembro 2024 – dezembro 2025 | Remoto",
+    context: "Desenvolvimento de aplicações web para fintech e banking.",
+    highlights: [
+      "Desenvolvimento de aplicações web para fintech e banking com Nuxt.js (Vue.js) e TypeScript",
+      "Interfaces de backoffice para gestão de usuários, perfis e produtos em serviços financeiros",
+      "SSO corporativo integrado com Keycloak e AWS, APIs REST e serviços financeiros",
+      "Docker multi-stage: 1 GB+ reduzido para ~220 MB, ~40% mais rápido em deployments",
+      "Criação e evolução do Design System da empresa melhorando a escalabilidade do frontend",
+      "Documentação de componentes no Storybook, code reviews técnicos e arquitetura frontend",
+      "Cursor IDE e workflows assistidos por IA aumentando produtividade e padronização",
+    ],
+  },
+  {
+    name: "UNO ERP",
+    role: "Desenvolvedor Frontend",
+    time: "outubro 2023 – novembro 2024 | Remoto",
+    context: "Modernização de ERP legado e evolução contínua da plataforma.",
+    highlights: [
+      "Desenvolvimento e manutenção de features do sistema ERP web usando Vue.js, Nuxt.js e TypeScript",
+      "Migração do sistema ERP web legado de Angular 12 para Vue 3",
+      "Evolução da aplicação legada em Angular 12, incluindo correções, melhorias e suporte às funcionalidades existentes",
+      "Evolução do Design System da plataforma melhorando a consistência visual e a escalabilidade frontend",
+      "Estratégias automatizadas de teste usando Vitest, alcançando 80%+ de cobertura de teste",
+      "Padronização de builds Docker multi-stage, reduzindo o tamanho das imagens e aumentando a consistência entre ambientes",
+      "Integração de APIs REST e plataformas externas de CRM ao sistema ERP",
+      "Code reviews e contribuição para decisões de arquitetura frontend",
+    ],
+  },
+  {
+    name: "Duotalk",
+    role: "Desenvolvedor Frontend",
+    time: "abril 2023 – setembro 2023 | Remoto",
+    context: "Plataforma omnichannel de atendimento e vendas em tempo real.",
+    highlights: [
+      "Desenvolvimento frontend para plataforma omnichannel de atendimento e vendas utilizando Vue 3 e TypeScript",
+      "Funcionalidades de comunicação em tempo real utilizando WebSocket",
+      "Integração de APIs externas e sistemas CRM para automação de processos e fluxos conversacionais",
+      "Melhorias de arquitetura frontend e evolução contínua da plataforma em ambiente de startup de rápido crescimento",
+      "Code reviews, discussões técnicas e suporte frontend",
+    ],
+  },
+  {
+    name: "Catskillet",
+    role: "Desenvolvedor Frontend",
+    time: "agosto 2021 – março 2023 | Remoto",
+    context: "Desenvolvimento multiplataforma web, WordPress e CMS headless.",
+    highlights: [
+      "Aplicações web multiplataforma usando Vue.js, Nuxt.js e Angular",
+      "Desenvolvimento e manutenção de plugins, temas e Gutenberg blocks para WordPress",
+      "Integrações com Strapi CMS, incluindo customizações de schemas, plugins e middlewares",
+      "Revisões de código e suporte técnico à equipe de desenvolvimento",
+    ],
+  },
+];
+
+export const projects: Project[] = [
+  {
+    id: "polenghi",
+    slug: "polenghi",
+    title: "Polenghi",
+    shortDescription:
+      "Desenvolvimento do site institucional da Polenghi com Strapi CMS headless e frontend em Vue/Nuxt, incluindo modelagem de conteúdo, APIs customizadas e integração completa.",
+    description:
+      "Implementação completa do site da Polenghi: configuração e customização do Strapi CMS como headless CMS, modelagem de content-types para conteúdo institucional e produtos, desenvolvimento de plugins e middlewares customizados, criação de APIs REST/GraphQL performáticas, e integração com frontend desacoplado em Vue.js/Nuxt.js.",
+    type: "Web Institucional / Headless CMS",
+    role: "Desenvolvedor Frontend",
+    company: "Catskillet",
+    period: "2021 – 2023",
+    technologies: [
+      "Strapi CMS",
+      "Vue.js",
+      "Nuxt.js",
+      "Node.js",
+      "TypeScript",
+      "REST API",
+      "GraphQL",
+      "PostgreSQL",
+    ],
+    challenge:
+      "Estruturar um CMS headless flexível para o site institucional da Polenghi, com schemas para conteúdo dinâmico, validações, permissões e lógica de negócio customizada, garantindo performance e escalabilidade.",
+    solution:
+      "Modelagem de content-types e componentes reutilizáveis no Strapi; plugins customizados para funcionalidades específicas; middlewares para autenticação e validação; customização de controllers/services; documentação de APIs para consumo pelo frontend Nuxt.",
+    results: [
+      "Site institucional Polenghi no ar com CMS headless",
+      "Schemas flexíveis para conteúdo institucional e catálogo de produtos",
+      "Plugins e middlewares reutilizáveis para futuras expansões",
+      "APIs documentadas e otimizadas para frontend",
+    ],
+    metrics: [],
+    image: "/images/polenghi-preview.png",
+    gallery: [],
+    projectLink: "https://www.polenghi.com.br/",
+    repositoryLink: null,
+    confidential: false,
+    featured: true,
+  },
+  {
+    id: "imep-educacional",
+    slug: "imep-educacional",
+    title: "IMEP Educacional",
+    shortDescription:
+      "Desenvolvimento e manutenção da plataforma educacional IMEP, com aplicações web multiplataforma usando Vue.js, Nuxt.js e Angular para gestão acadêmica e portal do aluno.",
+    description:
+      "Desenvolvimento contínuo de aplicações web para a plataforma IMEP Educacional: portal do aluno, sistema de gestão acadêmica, interfaces administrativas e funcionalidades de matrícula. Utilização de Vue.js, Nuxt.js e Angular para criar interfaces ricas, performáticas e escaláveis, com code reviews e práticas de qualidade.",
+    type: "Plataforma Educacional / Web Apps",
+    role: "Desenvolvedor Frontend",
+    company: "Catskillet",
+    period: "2021 – 2023",
+    technologies: [
+      "Vue.js",
+      "Nuxt.js",
+      "Angular",
+      "TypeScript",
+      "JavaScript",
+      "REST API",
+    ],
+    challenge:
+      "Entregar aplicações web de qualidade para plataforma educacional com stacks variadas (Vue, Nuxt, Angular), mantendo consistência de código, performance e boas práticas em ambiente de múltiplos produtos.",
+    solution:
+      "Desenvolvimento seguindo padrões de cada framework; code reviews rigorosos; componentização reutilizável; testes automatizados; integração contínua; monitoramento de performance.",
+    results: [
+      "Portal do aluno e gestão acadêmica funcionando em produção",
+      "Codebase consistente e manutenível across stacks",
+      "Performance otimizada nas aplicações entregues",
+      "Novas features entregues continuamente para plataforma educacional",
+    ],
+    metrics: [],
+    image: "/images/imep-preview.webp",
+    gallery: [],
+    projectLink: "https://imepeducacional.com.br/",
+    repositoryLink: null,
+    confidential: false,
+    featured: true,
+  },
+  {
+    id: "fausp",
+    slug: "fausp",
+    title: "FAUSP",
+    shortDescription:
+      "Desenvolvimento do site da Faculdade de Arquitetura e Urbanismo da USP (FAUSP) com WordPress, temas customizados, blocos Gutenberg e integrações específicas para conteúdo acadêmico.",
+    description:
+      "Criação do site institucional da FAUSP no ecossistema WordPress: desenvolvimento de tema customizado responsivo, blocos Gutenberg personalizados para conteúdo acadêmico e institucional, plugins para funcionalidades específicas da faculdade, e integração com sistemas internos da USP.",
+    type: "WordPress / Site Institucional",
+    role: "Desenvolvedor Frontend",
+    company: "Catskillet",
+    period: "2021 – 2023",
+    technologies: [
+      "WordPress",
+      "PHP",
+      "JavaScript",
+      "Gutenberg",
+      "React",
+      "ACF",
+      "CSS/SCSS",
+    ],
+    challenge:
+      "Construir site institucional robusto no WordPress para a FAUSP, com blocos Gutenberg customizados para necessidades acadêmicas específicas, tema performático e integrações com sistemas da USP.",
+    solution:
+      "Tema child customizado otimizado; blocos Gutenberg com React para conteúdo acadêmico; plugins modulares para funcionalidades específicas; integração com APIs da USP; seguir WordPress Coding Standards.",
+    results: [
+      "Site institucional FAUSP no ar com WordPress",
+      "Blocos Gutenberg customizados para conteúdo acadêmico",
+      "Tema responsivo e performático",
+      "Integrações com sistemas internos da USP",
+    ],
+    metrics: [],
+    image: "/images/fausp-preview.webp",
+    gallery: [],
+    projectLink: "https://fausp.edu.br/",
+    repositoryLink: null,
+    confidential: false,
+    featured: true,
+  },
+];
+
+export const services: Service[] = [
+  {
+    id: "web-systems",
+    title: "Sistemas Web",
+    description:
+      "Desenvolvimento de aplicações web completas, do frontend ao backend, com foco em usabilidade, performance e manutenibilidade.",
+    examples: [
+      "Dashboards administrativos",
+      "Portais de clientes",
+      "Sistemas internos",
+      "Ferramentas operacionais",
+    ],
+  },
+  {
+    id: "saas",
+    title: "SaaS",
+    description:
+      "Construção de produtos SaaS escaláveis: multi-tenancy, billing, autenticação, onboarding e arquitetura preparada para crescimento.",
+    examples: [
+      "Plataformas B2B",
+      "Ferramentas de produtividade",
+      "Sistemas de gestão",
+      "Marketplaces",
+    ],
+  },
+  {
+    id: "integrations-apis",
+    title: "Integrações e APIs",
+    description:
+      "Integração entre sistemas, APIs REST/GraphQL, webhooks, middleware e sincronização de dados entre plataformas distintas.",
+    examples: [
+      "Integração ERP ↔ CRM",
+      "Webhooks e eventos",
+      "APIs públicas/privadas",
+      "Middleware de sincronização",
+    ],
+  },
+  {
+    id: "legacy-modernization",
+    title: "Modernização de Sistemas",
+    description:
+      "Migração de tecnologias legadas, refatoração de código, redução de dívida técnica e preparação para evolução contínua.",
+    examples: [
+      "Migração Angular → Vue/React",
+      "Backend legado → Node.js/TypeScript",
+      "Monolito → Serviços",
+      "Docker/CI/CD",
+    ],
+  },
+  {
+    id: "frontend-development",
+    title: "Desenvolvimento Frontend",
+    description:
+      "Interfaces modernas, acessíveis e performáticas com React/Next.js, Vue/Nuxt, Design Systems, Storybook e testes.",
+    examples: [
+      "Design Systems",
+      "Componentes reutilizáveis",
+      "SSR/SSG/ISR",
+      "Acessibilidade (WCAG)",
+    ],
+  },
+  {
+    id: "maintenance-evolution",
+    title: "Manutenção e Evolução",
+    description:
+      "Sustentação de aplicações existentes: correções, melhorias de performance, novas features, atualizações de dependências e segurança.",
+    examples: [
+      "Correção de bugs críticos",
+      "Otimização de performance",
+      "Novas funcionalidades",
+      "Atualizações de stack",
+    ],
+  },
+];
+
+export const metrics: Metric[] = [
+  { label: "Anos de experiência", value: "5+" },
+  { label: "Projetos entregues", value: "10+", context: "Carreira completa" },
+  { label: "Redução imagens Docker", value: "60%+", context: "Egis ERP" },
+  { label: "Melhoria no deploy", value: "~45%", context: "Egis ERP" },
+  { label: "Cobertura de testes", value: "80%+", context: "UNO ERP" },
+  { label: "Redução Docker", value: "1 GB → ~220 MB", context: "UNLKD" },
+  { label: "Melhoria deploy", value: "~40%", context: "UNLKD" },
+];
+
+export const skills: SkillGroup[] = [
+  {
+    category: "Frontend",
+    items: ["React · Next.js", "Vue · Nuxt", "Angular", "TypeScript"],
+  },
+  {
+    category: "Backend",
+    items: ["Node.js · Express", "Nest.js", "REST · GraphQL", "TypeScript"],
+  },
+  {
+    category: "Dados",
+    items: ["PostgreSQL", "SQL Server", "MySQL", "MongoDB"],
+  },
+  {
+    category: "DevOps & Cloud",
+    items: ["Docker", "GitHub Actions", "AWS", "Vercel · Cloudflare"],
+  },
+  {
+    category: "Qualidade",
+    items: ["Vitest · Jest", "Cypress · Playwright", "ESLint · Prettier", "Lighthouse"],
+  },
+  {
+    category: "Arquitetura & Métodos",
+    items: ["Clean Architecture · DDD", "SOLID · Design Patterns", "TDD · BDD", "Scrum · Kanban"],
+  },
+];
+
+export const languages: Language[] = [
+  { name: "Português", level: "Nativo" },
+  {
+    name: "Inglês",
+    level: "Intermediário Superior (B2)",
+    detail: "Leitura técnica, redação e comunicação profissional",
+  },
+];
+
+export const featuredProjects: FeaturedProject[] = [
+  {
+    id: "egis-erp",
+    slug: "egis-erp",
+    title: "Egis ERP — Migração Full-Stack Vue 2 → Nuxt 4 + Delphi → Node/TS",
+    company: "Egis ERP",
+    period: "2026 – Presente",
+    role: "Desenvolvedor Full Stack (Líder Técnico)",
+    problem:
+      "ERP web de 10+ anos (Vue 2 + backend Delphi) impedia evolução: deploys manuais de 12min, onboarding de 3 semanas, zero testes, time de 4 pessoas travado em manutenção.",
+    action:
+      "Arquitetei e liderei migração incremental full-stack: Vue 2 → Nuxt 4 (Vue 3) página-a-página com Pinia + composables; Delphi → Node.js/Express/TypeScript + TypeORM + SQL Server otimizado; Docker multi-stage + GitHub Actions (test→build→staging→prod); Feature flags para rollout seguro; OpenAI Codex para acelerar boilerplate de migração (~40% menos horas manuais).",
+    results: [
+      "Imagens Docker: 1.2GB → 480MB (-60%)",
+      "Tempo de deploy: 12min → 6.5min (-45%)",
+      "Cobertura de testes: 0% → 75%+ (Vitest + Playwright)",
+      "Zero downtime na migração (rollback <2min via feature flags)",
+      "Velocity do time: +80% features/sprint pós-migração",
+      "Onboarding novo dev: 3 semanas → 3 dias",
+    ],
+    metrics: [
+      { label: "Redução Docker", value: "60%+" },
+      { label: "Melhoria Deploy", value: "45%+" },
+      { label: "Cobertura Testes", value: "75%+" },
+      { label: "Velocity Time", value: "+80%" },
+    ],
+    technologies: [
+      "Vue 3",
+      "Nuxt 4",
+      "Node.js",
+      "Express",
+      "TypeScript",
+      "TypeORM",
+      "SQL Server",
+      "Docker",
+      "GitHub Actions",
+      "Pinia",
+      "Playwright",
+    ],
+    challenge:
+      "Migrar sistema crítico em produção sem paralisar o negócio, com time reduzido e stack legada acoplada.",
+    solution:
+      "Migração incremental por rotas (Strangler Fig), tipos compartilhados via TypeScript, API versionada, CI/CD automatizado, IA para boilerplate repetitivo.",
+    image: "/images/erp-preview.jpg",
+    projectLink: "#",
+    featured: true,
+    category: "Modernização de Legado / ERP",
+  },
+  {
+    id: "unlkd-fintech",
+    slug: "unlkd-fintech",
+    title: "UNLKD — Design System + SSO Corporativo (Fintech/Banking)",
+    company: "UNLKD",
+    period: "Dez 2024 – Dez 2025",
+    role: "Desenvolvedor Frontend (Lead de Arquitetura Frontend)",
+    problem:
+      "Fintech em crescimento com backoffice frágil: UI inconsistente, builds de 1GB+, sem SSO corporativo, onboarding de devs lento, compliance bancário pendente.",
+    action:
+      "Construí Design System do zero (80+ componentes, Storybook, tokens, testes visuais); Implementei SSO Keycloak + AWS Cognito com RBAC; Docker multi-stage otimizado; Workflows Cursor IDE + IA para padronização; Code reviews e decisões de arquitetura frontend.",
+    results: [
+      "Docker: 1GB+ → 220MB (-78%)",
+      "Deploy: -40% tempo",
+      "Onboarding devs: -50% (DS documentado + Storybook)",
+      "Compliance bancário (LGPD/PCI) atingido",
+      "80+ componentes reutilizáveis com documentação viva",
+      "Padronização de código via ESLint/Prettier/TypeScript strict",
+    ],
+    metrics: [
+      { label: "Redução Docker", value: "78%" },
+      { label: "Melhoria Deploy", value: "40%+" },
+      { label: "Onboarding Devs", value: "-50%" },
+      { label: "Componentes DS", value: "80+" },
+    ],
+    technologies: [
+      "Nuxt 3",
+      "Vue 3",
+      "TypeScript",
+      "Keycloak",
+      "AWS",
+      "Docker",
+      "Storybook",
+      "Vitest",
+      "Cursor IDE",
+      "Design Tokens",
+    ],
+    challenge:
+      "Entregar base técnica escalável para fintech regulada, com team velocity e compliance simultâneos.",
+    solution:
+      "Design System como produto interno (versionado, testado, documentado); SSO centralizado; Infra-as-code; IA-assisted workflows.",
+    image: "/images/fintech-preview.jpg",
+    projectLink: "#",
+    featured: true,
+    category: "Fintech / Design System / SSO",
+  },
+  {
+    id: "uno-erp",
+    slug: "uno-erp",
+    title: "UNO ERP — Migração Angular 12 → Vue 3 + Design System + Testes",
+    company: "UNO ERP",
+    period: "Out 2023 – Nov 2024",
+    role: "Desenvolvedor Frontend (Arquiteto Frontend)",
+    problem:
+      "ERP em Angular 12 com dívida técnica alta: bundles grandes, performance ruim, zero testes, Design System inconsistente, integrações CRM manuais.",
+    action:
+      "Lidei migração Angular 12 → Vue 3/Nuxt 3 incremental; Evoluí Design System (tokens, componentes acessíveis, Storybook); Implementei Vitest com 80%+ cobertura; Docker multi-stage padronizado; Integrações CRM via APIs REST; Code reviews e decisões de arquitetura.",
+    results: [
+      "Migração Angular → Vue 3 concluída sem breaking changes",
+      "Cobertura de testes: 0% → 80%+ (Vitest)",
+      "Docker multi-stage padronizado (consistência entre ambientes)",
+      "Design System versionado e documentado no Storybook",
+      "Integrações CRM automatizadas (redução trabalho manual)",
+      "Performance: bundle -35%, LCP -40%",
+    ],
+    metrics: [
+      { label: "Cobertura Testes", value: "80%+" },
+      { label: "Bundle Size", value: "-35%" },
+      { label: "LCP Improvement", value: "40%+" },
+      { label: "DS Componentes", value: "50+" },
+    ],
+    technologies: [
+      "Vue 3",
+      "Nuxt 3",
+      "TypeScript",
+      "Angular",
+      "Vitest",
+      "Docker",
+      "Storybook",
+      "REST API",
+      "Design System",
+    ],
+    challenge:
+      "Migrar framework mantendo ERP em produção, com team misto (Angular/Vue) e zero downtime.",
+    solution:
+      "Micro-frontends transitionais, tipos compartilhados, feature flags, testes de regressão automatizados, DS como bridge visual.",
+    image: "/images/erp-legacy-preview.jpg",
+    projectLink: "#",
+    featured: true,
+    category: "Modernização de Legado / ERP",
+  },
+];
+
+export const processSteps: ProcessStep[] = [
+  {
+    step: "01",
+    title: "Diagnóstico & Escopo",
+    description:
+      "Call de 30-60min para entender o problema real, restrições técnicas, prazo e orçamento. Entregável: resumo técnico + estimativa de fases.",
+    icon: "Search",
+  },
+  {
+    step: "02",
+    title: "Proposta & Kickoff",
+    description:
+      "Proposta fixa ou semanal (time & materials) com marcos claros, stack decidida, riscos mapeados. Aprovação → setup repo, CI/CD, staging, comunicação semanal.",
+    icon: "FileText",
+  },
+  {
+    step: "03",
+    title: "Sprints & Entrega Contínua",
+    description:
+      "Ciclos de 2 semanas: planning → dev → code review → demo em staging → feedback → deploy. Métricas: coverage, Lighthouse, bundle size, zero critical bugs.",
+    icon: "GitBranch",
+  },
+  {
+    step: "04",
+    title: "Entrega & Transição",
+    description:
+      "Documentação técnica (ADR, runbooks), treino do time interno, suporte 30 dias pós-go-live. Opção: retainer mensal para evolução contínua.",
+    icon: "CheckCircle",
+  },
+];
+
+export const siteConfig: SiteConfig = {
+  name: "Andrew Crescencio",
+  title: "Engenheiro de Software | Frontend | Full Stack",
+  description:
+    "Engenheiro de Software com 5+ anos de experiência em aplicações web para fintechs, ERPs e plataformas SaaS. Desenvolvimento de sistemas, SaaS, integrações, modernização de legados e desenvolvimento frontend.",
+  url: "https://www.andrewcrescencio.com",
+  ogImage: "/api/og",
+  locale: "pt-BR",
+};
