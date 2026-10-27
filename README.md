@@ -1,75 +1,29 @@
-# Nuxt Minimal Starter
+# Andrew Crescencio
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Currently working full stack with **Vue.js · Node.js · Express.js · SQL Server**.
 
-## Setup
+---
 
-Make sure to install dependencies:
+## Tech stack
 
-```bash
-# npm
-npm install
+**Frontend**
+React.js · Next.js · Vue.js · Nuxt.js · Angular · TypeScript · JavaScript
 
-# pnpm
-pnpm install
+**Mobile**
+React Native
 
-# yarn
-yarn install
+**Backend & APIs**
+Node.js · Express.js · REST API · GraphQL
 
-# bun
-bun install
-```
+**Database**
+SQL Server · MySQL · PostgreSQL · Supabase
 
-## Development Server
+**Tooling & Infrastructure**
+Docker · CI/CD · Storybook · Git · Vite
 
-Start the development server on `http://localhost:3000`:
+---
 
-```bash
-# npm
-npm run dev
+## Connect
 
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-andrewcrescencio-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/andrew-crescencio)
+[![Email](https://img.shields.io/badge/Email-andrew__workstation%40hotmail.com-0078D4?style=flat&logo=microsoft-outlook&logoColor=white)](mailto:andrew_workstation@hotmail.com)
